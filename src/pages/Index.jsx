@@ -1,10 +1,9 @@
-import "../assets/manjifont.ttf";
 import menu from "../assets/menu.json";
 import MenuCard from "../components/MenuCard";
 import AppBackground from "../components/AppBackground";
 
 import { useState } from "react";
-import classes from "./App.module.scss";
+import classes from "./Index.module.scss";
 
 function App() {
   const [menuItems] = useState(Array.from(menu).reverse());

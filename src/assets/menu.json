@@ -131,15 +131,48 @@
     ]
   },
   {
-    "name": "Drinks",
+    "name": "Soğuk İçecekler",
     "background_color": "#90A955",
     "color": "#ECF39E",
     "items": [
       {
-        "name": "Manjii Chicken",
-        "image": "assets/images/davuk.jpg",
-        "description": "Chicken, lettuce, tomato, onion, mayonnaise, ketchup, mustard, pickles, cheese, and a bun. Served with Potato Fries",
+        "name": "Şişe/Kutu İçecekler",
+        "price": "30₺"
+      },
+      {
+        "name": "Sade Soda",
+        "price": "14₺"
+      },
+      {
+        "name": "Meyveli Soda",
+        "price": "18₺"
+      },
+      {
+        "name": "Ayran",
+        "price": "16₺"
+      },
+      {
+        "name": "Su",
+        "price": "5₺"
+      },
+      {
+        "name": "Churchill",
+        "price": "25₺"
+      },
+      {
+        "name": "Divider"
+      },
+      {
+        "name": "Iced Caffe Americano",
         "price": "50₺"
+      },
+      {
+        "name": "Iced Caffe Latte",
+        "price": "55₺"
+      },
+      {
+        "name": "Iced Caffe Mocha",
+        "price": "60₺"
       }
     ]
   }

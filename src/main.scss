@@ -83,7 +83,7 @@ video {
   padding: 0;
   border: 0;
   font-size: 100%;
-  font: inherit;
+  font-family: "Roboto";
   vertical-align: baseline;
 }
 /* HTML5 display-role reset for older browsers */
@@ -121,4 +121,34 @@ q:after {
 table {
   border-collapse: collapse;
   border-spacing: 0;
+}
+// END RESET
+html {
+  background-color: #3d3d3d;
+  width: 100%;
+  height: 100%;
+}
+body {
+  width: 100%;
+  height: 100%;
+  max-width: 768px;
+  margin: 0 auto !important;
+}
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+#root {
+  width: 100%;
+  height: 100%;
+}
+// FONTS
+@font-face {
+  font-family: "Manji";
+  src: url("/manjifont.ttf");
+}
+@font-face {
+  font-family: "Roboto";
+  src: url("/roboto.ttf");
 }

@@ -3,7 +3,7 @@
   flex-direction: column;
   gap: 8px;
   justify-content: center;
-  align-items: center;
+  align-items: start;
   .card__item__image {
     background: black;
     width: 100%;
@@ -12,7 +12,7 @@
   .card__item__header {
     font-size: 1.5rem;
     font-weight: 700;
-    text-align: center;
+    text-align: left;
   }
   .card__item__body {
     display: flex;

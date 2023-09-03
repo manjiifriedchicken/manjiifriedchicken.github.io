@@ -4,14 +4,18 @@ import VariantSelector from "./VariantSelector";
 const MenuItem = (props) => {
   return (
     <div className={classes.card__item}>
-      <div className={classes.card__item__image}>
-        <img src={props.item.image} alt={props.item.name} />
-      </div>
+      {props.item.image ? (
+        <div className={classes.card__item__image}>
+          <img src={props.item.image} alt={props.item.name} />
+        </div>
+      ) : null}
       <h3 className={classes.card__item__header}>{props.item.name}</h3>
       <div className={classes.card__item__body}>
-        <p className={classes.card__item__description}>
-          {props.item.description}
-        </p>
+        {props.item.description ? (
+          <p className={classes.card__item__description}>
+            {props.item.description}
+          </p>
+        ) : null}
         {props.item.variants ? (
           <div className={classes.card__item__variant}>
             <VariantSelector item={props.item} />
