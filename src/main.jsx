@@ -10,7 +10,8 @@ import {
 } from "react-router-dom";
 
 const router = createBrowserRouter(
-  createRoutesFromElements(<Route path="/" element={<Index />}></Route>)
+  createRoutesFromElements(<Route path="/" element={<Index />}></Route>),
+  { basename: "/" }
 );
 
 ReactDOM.createRoot(document.getElementById("root")).render(
