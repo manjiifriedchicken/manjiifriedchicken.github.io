@@ -1,0 +1,44 @@
+.card {
+  width: 100%;
+  max-width: 768px;
+  height: 60px;
+  overflow: hidden;
+  transform: translateY(calc(100% - 60px));
+  position: fixed;
+  transition: all 600ms ease;
+  &.card__open {
+    transform: translateY(0);
+    overflow: auto;
+    height: 100svh;
+    transition: all 600ms ease;
+  }
+  .card__header {
+    border-radius: 4px 4px 0 0;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.5);
+    padding: 12px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+    position: sticky;
+    top: 0;
+    left: 0;
+    background-color: inherit;
+    .card__title {
+      font-size: 1.5rem;
+      font-weight: 600;
+      text-align: left;
+    }
+    .card__closeIcon {
+      cursor: pointer;
+      width: 24px;
+      height: 24px;
+    }
+  }
+  .card__body {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    padding: 12px;
+  }
+}
