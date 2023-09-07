@@ -13,14 +13,10 @@ const MenuCard = (props) => {
       style={{
         backgroundColor: props.category.background_color,
         color: props.category.color,
-        zIndex: 100 - props.cardIndex,
+        zIndex: isCardOpen ? 0 : 10,
       }}
       animate={{
-        bottom: isCardOpen
-          ? 0
-          : props.anyActive
-          ? "-60px"
-          : props.cardIndex * 60 + "px",
+        bottom: isCardOpen ? 0 : props.cardIndex * 60 + "px",
         height: isCardOpen ? "100%" : "60px",
         overflow: isCardOpen ? "auto" : "hidden",
       }}

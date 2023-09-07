@@ -1,5 +1,5 @@
 import PropTypes from "prop-types";
-import bgImage from "../assets/images/jungle2.jpg";
+import bgImage from "../assets/images/jungle.jpg";
 
 const AppBackground = (props) => {
   const { height } = props;
@@ -27,6 +27,9 @@ const AppBackground = (props) => {
         >
           Manjii Fried Chicken
         </span>
+        <audio id="audio" loop autoPlay>
+          <source src="/tothejungle.mp3" type="audio/mpeg" />
+        </audio>
       </h1>
     </>
   );

@@ -1,13 +1,13 @@
 [
   {
-    "name": "Chicken Sandwiches",
+    "name": "Fried Chicken Burgers",
     "background_color": "#132A13",
     "color": "#ECF39E",
     "items": [
       {
-        "name": "Manjii Chicken",
+        "name": "Tokio Burger",
         "image": "productImages/davuk.jpg",
-        "description": "Chicken, lettuce, tomato, onion, mayonnaise, ketchup, mustard, pickles, cheese, and a bun. Served with Potato Fries",
+        "description": "Tokio sos, kızarmış tavuk butu, tatlı alman turşusu, coleslaw salata, cheddar peyniri.",
         "variants": [
           {
             "name": "Sandwich",
