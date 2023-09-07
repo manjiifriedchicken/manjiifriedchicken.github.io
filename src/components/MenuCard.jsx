@@ -22,10 +22,10 @@ const MenuCard = (props) => {
           ? "-60px"
           : props.cardIndex * 60 + "px",
         height: isCardOpen ? "100%" : "60px",
+        overflow: isCardOpen ? "auto" : "hidden",
       }}
       transition={{
         delay: 0,
-        ease: "linear",
         duration: 0.3,
       }}
     >
@@ -40,6 +40,7 @@ const MenuCard = (props) => {
         <CloseIcon
           svgClass={`${classes.card__closeIcon}`}
           svgFill={props.category.color}
+          openStatus={isCardOpen}
         />
       </div>
       <div className={classes.card__body}>
