@@ -19,6 +19,7 @@ const AppBackground = (props) => {
           backgroundSize: "cover",
           backgroundPosition: "center",
           backgroundImage: `url(${bgImage})`,
+          position: "relative",
         }}
       >
         <span

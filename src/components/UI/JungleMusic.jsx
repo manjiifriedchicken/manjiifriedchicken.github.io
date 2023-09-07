@@ -13,7 +13,7 @@ const JungleMusic = () => {
     }
   }
   return (
-    <div style={{ position: "absolute", top: "20px", right: "20px" }}>
+    <>
       <audio id="audio">
         <source src="/tothejungle.mp3" type="audio/mpeg" />
       </audio>
@@ -24,6 +24,10 @@ const JungleMusic = () => {
           border: "0",
           width: "35px",
           height: "35px",
+          cursor: "pointer",
+          position: "absolute",
+          top: "12px",
+          right: "12px",
         }}
       >
         {isPlaying ? (
@@ -46,7 +50,7 @@ const JungleMusic = () => {
           </svg>
         )}
       </button>
-    </div>
+    </>
   );
 };
 
