@@ -42,6 +42,7 @@ const MenuCard = ({ category, cardIndex, activeMenu, menuLength }) => {
           svgClass={`${classes.card__closeIcon}`}
           svgFill={category.color}
           openStatus={activeMenu.get() === cardIndex}
+          fill={category.color}
         />
       </div>
       <div className={classes.card__body}>
