@@ -4,51 +4,48 @@ import classes from "./MenuCard.module.scss";
 import CloseIcon from "./UI/CloseIcon";
 import MenuItem from "./UI/MenuItem";
 
-const MenuCard = (props) => {
+const MenuCard = ({ category, cardIndex, activeMenu, menuLength }) => {
+  const screenSize = window.innerHeight;
   const animateSettings = {
-    bottom:
-      props.activeMenu.get() === props.cardIndex
-        ? 0
-        : props.activeMenu.get() !== false &&
-          props.activeMenu.get() < props.cardIndex
-        ? (props.cardIndex - 1) * 48 + "px"
-        : props.cardIndex * 48 + "px",
-    height: props.activeMenu.get() === props.cardIndex ? "100%" : "48px",
-    overflow: props.activeMenu.get() === props.cardIndex ? "auto" : "hidden",
+    height:
+      activeMenu.get() === cardIndex
+        ? screenSize - (menuLength - 1) * 48 + "px"
+        : "48px",
+    overflow: activeMenu.get() === cardIndex ? "scroll" : "hidden",
+    zIndex: activeMenu.get() === cardIndex ? 0 : 1,
   };
   return (
     <motion.div
       className={classes.card}
       style={{
-        backgroundColor: props.category.background_color,
-        color: props.category.color,
-        zIndex: props.activeMenu.get() === props.cardIndex ? 0 : 1,
+        backgroundColor: category.background_color,
+        color: category.color,
       }}
       animate={animateSettings}
       transition={{
-        delay: props.activeMenu.get() === props.cardIndex ? 0.3 : 0,
         duration: 0.3,
+        zIndex: { delay: 0.3 },
       }}
     >
       <div
         className={classes.card__header}
         onClick={() => {
-          if (props.activeMenu.get() !== props.cardIndex) {
-            props.activeMenu.set(props.cardIndex);
+          if (activeMenu.get() !== cardIndex) {
+            activeMenu.set(cardIndex);
           } else {
-            props.activeMenu.set(false);
+            activeMenu.set(false);
           }
         }}
       >
-        <h2 className={classes.card__title}>{props.category.name}</h2>
+        <h2 className={classes.card__title}>{category.name}</h2>
         <CloseIcon
           svgClass={`${classes.card__closeIcon}`}
-          svgFill={props.category.color}
-          openStatus={props.activeMenu.get() === props.cardIndex}
+          svgFill={category.color}
+          openStatus={activeMenu.get() === cardIndex}
         />
       </div>
       <div className={classes.card__body}>
-        {props.category.items.map((item, index) => {
+        {category.items.map((item, index) => {
           return <MenuItem key={index} item={item} classes={classes} />;
         })}
       </div>
@@ -62,4 +59,5 @@ MenuCard.propTypes = {
   category: PropTypes.object.isRequired,
   cardIndex: PropTypes.number.isRequired,
   activeMenu: PropTypes.object.isRequired,
+  menuLength: PropTypes.number.isRequired,
 };
