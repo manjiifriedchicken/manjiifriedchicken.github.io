@@ -6,7 +6,11 @@ const MenuItem = (props) => {
     <div className={classes.card__item}>
       {props.item.image ? (
         <div className={classes.card__item__image}>
-          <img src={props.item.image} alt={props.item.name} />
+          <img
+            src={props.item.image}
+            alt={props.item.name}
+            style={{ objectFit: "cover", width: "100%" }}
+          />
         </div>
       ) : null}
       <h3 className={classes.card__item__header}>{props.item.name}</h3>

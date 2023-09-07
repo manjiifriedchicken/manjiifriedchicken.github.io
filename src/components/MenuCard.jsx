@@ -1,6 +1,6 @@
 import PropTypes from "prop-types";
-
 import { useState } from "react";
+import { motion } from "framer-motion";
 import classes from "./MenuCard.module.scss";
 import CloseIcon from "./UI/CloseIcon";
 import MenuItem from "./UI/MenuItem";
@@ -8,16 +8,25 @@ import MenuItem from "./UI/MenuItem";
 const MenuCard = (props) => {
   const [isCardOpen, setIsCardOpen] = useState(false);
   return (
-    <div
+    <motion.div
       className={`${classes.card} ${isCardOpen ? classes.card__open : ""}`}
       style={{
         backgroundColor: props.category.background_color,
         color: props.category.color,
+        zIndex: 100 - props.cardIndex,
+      }}
+      animate={{
         bottom: isCardOpen
           ? 0
           : props.anyActive
-          ? props.cardIndex * -60 + "px"
+          ? "-60px"
           : props.cardIndex * 60 + "px",
+        height: isCardOpen ? "100%" : "60px",
+      }}
+      transition={{
+        delay: 0,
+        ease: "linear",
+        duration: 0.3,
       }}
     >
       <div
@@ -38,7 +47,7 @@ const MenuCard = (props) => {
           return <MenuItem key={index} item={item} classes={classes} />;
         })}
       </div>
-    </div>
+    </motion.div>
   );
 };
 

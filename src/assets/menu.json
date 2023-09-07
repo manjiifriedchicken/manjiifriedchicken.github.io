@@ -6,7 +6,7 @@
     "items": [
       {
         "name": "Manjii Chicken",
-        "image": "assets/images/davuk.jpg",
+        "image": "productImages/davuk.jpg",
         "description": "Chicken, lettuce, tomato, onion, mayonnaise, ketchup, mustard, pickles, cheese, and a bun. Served with Potato Fries",
         "variants": [
           {
@@ -28,7 +28,7 @@
       },
       {
         "name": "Manjii Chicken",
-        "image": "assets/images/davuk.jpg",
+        "image": "productImages/davuk.jpg",
         "description": "Chicken, lettuce, tomato, onion, mayonnaise, ketchup, mustard, pickles, cheese, and a bun. Served with Potato Fries",
         "variants": [
           {
@@ -50,7 +50,7 @@
       },
       {
         "name": "Manjii Chicken",
-        "image": "assets/images/davuk.jpg",
+        "image": "productImages/davuk.jpg",
         "description": "Chicken, lettuce, tomato, onion, mayonnaise, ketchup, mustard, pickles, cheese, and a bun. Served with Potato Fries",
         "variants": [
           {
@@ -79,7 +79,7 @@
     "items": [
       {
         "name": "Manjii Chicken",
-        "image": "assets/images/davuk.jpg",
+        "image": "productImages/davuk.jpg",
         "description": "Chicken, lettuce, tomato, onion, mayonnaise, ketchup, mustard, pickles, cheese, and a bun. Served with Potato Fries",
         "variants": [
           {
@@ -108,7 +108,7 @@
     "items": [
       {
         "name": "Manjii Chicken",
-        "image": "assets/images/davuk.jpg",
+        "image": "productImages/davuk.jpg",
         "description": "Chicken, lettuce, tomato, onion, mayonnaise, ketchup, mustard, pickles, cheese, and a bun. Served with Potato Fries",
         "variants": [
           {

@@ -1,17 +1,8 @@
 .card {
   width: 100%;
   max-width: 768px;
-  height: 60px;
   overflow: hidden;
-  transform: translateY(calc(100% - 60px));
   position: fixed;
-  transition: all 600ms ease;
-  &.card__open {
-    transform: translateY(0);
-    overflow: auto;
-    height: 100svh;
-    transition: all 600ms ease;
-  }
   .card__header {
     border-radius: 4px 4px 0 0;
     box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.5);

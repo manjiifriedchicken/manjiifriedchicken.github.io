@@ -1,4 +1,5 @@
 import PropTypes from "prop-types";
+import bgImage from "../assets/images/jungle2.jpg";
 
 const AppBackground = (props) => {
   const { height } = props;
@@ -8,15 +9,24 @@ const AppBackground = (props) => {
         style={{
           textAlign: "center",
           fontSize: "3.5rem",
-          color: "black",
+          color: "white",
           height: `calc(100% - ${height}px)`,
           display: "flex",
           alignItems: "center",
           justifyContent: "center",
-          fontFamily: "Manji",
+          backgroundSize: "cover",
+          backgroundPosition: "center",
+          backgroundImage: `url(${bgImage})`,
         }}
       >
-        Manjii Fried Chicken
+        <span
+          style={{
+            fontFamily: "Manji",
+            padding: "0.5rem",
+          }}
+        >
+          Manjii Fried Chicken
+        </span>
       </h1>
     </>
   );
