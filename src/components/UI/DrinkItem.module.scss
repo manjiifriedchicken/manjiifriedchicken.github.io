@@ -1,0 +1,14 @@
+.drinkItem {
+  display: flex;
+  gap: 16px;
+  justify-content: space-between;
+  align-items: end;
+  .drinkTitle {
+    font-size: 1.25rem;
+    font-weight: 700;
+    text-align: left;
+  }
+  .drinkPrice {
+    font-size: 16px;
+  }
+}

@@ -5,6 +5,7 @@ import { useState } from "react";
 const MenuItem = (props) => {
   const [selectedVariant, setSelectedVariant] = useState(0);
   const isVarianted = props.item.variants ? true : false;
+  const variantColor = props.categoryColor + "CC";
   return (
     <div className={classes.card__item}>
       {props.item.image ? (
@@ -19,17 +20,25 @@ const MenuItem = (props) => {
       <h3 className={classes.card__item__header}>
         <p>{props.item.name}</p>
         {isVarianted ? (
-          <p className={classes.variantName}>
+          <p className={classes.variantName} style={{ color: variantColor }}>
             <span>{props.item.variants[selectedVariant].name}</span>
             &nbsp;-&nbsp;
             <span>{props.item.variants[selectedVariant].price}</span>
           </p>
-        ) : null}
+        ) : (
+          <p className={classes.card__item__price}>{props.item.price}</p>
+        )}
       </h3>
       <div className={classes.card__item__body}>
         {props.item.description ? (
           <p className={classes.card__item__description}>
-            {props.item.description}
+            {selectedVariant === 0
+              ? props.item.description
+              : selectedVariant === 1
+              ? "Sandwich + 2 Tenders + Drink"
+              : selectedVariant === 2
+              ? "Sandwich + 3 Tenders + 2 Wings + Drink"
+              : null}
           </p>
         ) : null}
         {props.item.variants ? (
@@ -42,11 +51,7 @@ const MenuItem = (props) => {
               setSelectedVariant={setSelectedVariant}
             />
           </div>
-        ) : (
-          <div className={classes.card__item__price}>
-            <p>{props.item.price}</p>
-          </div>
-        )}
+        ) : null}
       </div>
     </div>
   );

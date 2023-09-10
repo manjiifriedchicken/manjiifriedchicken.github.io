@@ -3,6 +3,7 @@ import { motion } from "framer-motion";
 import classes from "./MenuCard.module.scss";
 import CloseIcon from "./UI/CloseIcon";
 import MenuItem from "./UI/MenuItem";
+import DrinkItem from "./UI/DrinkItem";
 
 const MenuCard = ({ category, cardIndex, activeMenu, menuLength }) => {
   const screenSize = window.innerHeight;
@@ -46,15 +47,25 @@ const MenuCard = ({ category, cardIndex, activeMenu, menuLength }) => {
       </div>
       <div className={classes.card__body}>
         {category.items.map((item, index) => {
-          return (
-            <MenuItem
-              key={index}
-              item={item}
-              classes={classes}
-              categoryColor={category.color}
-              categoryBackground={category.background_color}
-            />
-          );
+          if (category.type === "food") {
+            return (
+              <MenuItem
+                key={index}
+                item={item}
+                categoryColor={category.color}
+                categoryBackground={category.background_color}
+              />
+            );
+          } else if (category.type === "drink") {
+            return (
+              <DrinkItem
+                key={index}
+                item={item}
+                categoryColor={category.color}
+                categoryBackground={category.background_color}
+              />
+            );
+          }
         })}
       </div>
     </motion.div>
