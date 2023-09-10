@@ -1,21 +1,31 @@
 .card__item {
   display: flex;
   flex-direction: column;
-  gap: 8px;
+  gap: 16px;
   justify-content: center;
   align-items: start;
   .card__item__image {
     background: black;
     width: 100%;
     aspect-ratio: 21/9;
+    border-radius: 16px;
+    img {
+      border-radius: 16px;
+    }
   }
   .card__item__header {
-    font-size: 1.5rem;
+    font-size: 1.25rem;
     font-weight: 700;
     text-align: left;
   }
   .card__item__body {
+    font-size: 1rem;
     display: flex;
     flex-direction: column;
+    gap: 8px;
+    .card__item__price {
+      width: 100%;
+      text-align: right;
+    }
   }
 }

@@ -14,7 +14,7 @@ const VariantSelector = (props) => {
               setSelectedVariant(index);
             }}
           >
-            <p className={classes.card__item__variant__name}>{variant.name}</p>
+            {variant.name}
           </div>
         );
       })}

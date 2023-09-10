@@ -24,7 +24,6 @@ const MenuCard = ({ category, cardIndex, activeMenu, menuLength }) => {
       animate={animateSettings}
       transition={{
         duration: 0.3,
-        zIndex: { delay: 0.3 },
       }}
     >
       <div

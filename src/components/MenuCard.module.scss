@@ -16,7 +16,7 @@
     left: 0;
     background-color: inherit;
     .card__title {
-      font-size: 1.5rem;
+      font-size: 1rem;
       font-weight: 600;
       text-align: left;
     }
@@ -29,7 +29,7 @@
   .card__body {
     display: flex;
     flex-direction: column;
-    gap: 12px;
-    padding: 12px;
+    gap: 16px;
+    padding: 24px;
   }
 }
