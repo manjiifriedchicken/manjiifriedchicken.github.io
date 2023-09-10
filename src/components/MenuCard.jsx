@@ -46,7 +46,15 @@ const MenuCard = ({ category, cardIndex, activeMenu, menuLength }) => {
       </div>
       <div className={classes.card__body}>
         {category.items.map((item, index) => {
-          return <MenuItem key={index} item={item} classes={classes} />;
+          return (
+            <MenuItem
+              key={index}
+              item={item}
+              classes={classes}
+              categoryColor={category.color}
+              categoryBackground={category.background_color}
+            />
+          );
         })}
       </div>
     </motion.div>

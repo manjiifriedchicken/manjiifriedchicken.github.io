@@ -1,16 +1,17 @@
 .card__item__variant {
   display: flex;
-  gap: 8px;
+  gap: 12px;
   justify-content: space-between;
   align-items: center;
   .card__item__variant__item {
-    width: 80px;
+    width: auto;
     height: 40px;
     border: 1px solid black;
     display: flex;
     justify-content: center;
     align-items: center;
-    border-radius: 8px;
+    border-radius: 6px;
     text-align: center;
+    aspect-ratio: 21/9;
   }
 }

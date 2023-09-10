@@ -1,8 +1,6 @@
 import PropTypes from "prop-types";
-import { useState } from "react";
 import classes from "./VariantSelector.module.scss";
 const VariantSelector = (props) => {
-  const [selectedVariant, setSelectedVariant] = useState(0);
   return (
     <div className={classes.card__item__variant}>
       {props.item.variants.map((variant, index) => {
@@ -10,17 +8,20 @@ const VariantSelector = (props) => {
           <div
             key={index}
             className={classes.card__item__variant__item}
+            style={{
+              backgroundColor:
+                props.selectedVariant === index ? props.color : "",
+              color: props.selectedVariant === index ? props.background : "",
+              borderColor: props.color,
+            }}
             onClick={() => {
-              setSelectedVariant(index);
+              props.setSelectedVariant(index);
             }}
           >
             {variant.name}
           </div>
         );
       })}
-      <div className={classes.card__item__price}>
-        {props.item.variants[selectedVariant].price}
-      </div>
     </div>
   );
 };
@@ -29,4 +30,8 @@ export default VariantSelector;
 
 VariantSelector.propTypes = {
   item: PropTypes.object.isRequired,
+  color: PropTypes.string.isRequired,
+  background: PropTypes.string.isRequired,
+  selectedVariant: PropTypes.number.isRequired,
+  setSelectedVariant: PropTypes.func.isRequired,
 };
