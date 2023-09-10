@@ -4,7 +4,7 @@ const JungleMusic = () => {
   const [isPlaying, setIsPlaying] = useState(false);
   function playAudio() {
     const audioEl = document.getElementById("audio");
-    audioEl.volume = 0.1;
+    audioEl.volume = 0.3;
     if (audioEl.paused) {
       audioEl.play();
       setIsPlaying(true);
