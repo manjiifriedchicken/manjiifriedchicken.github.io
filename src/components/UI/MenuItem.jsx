@@ -2,6 +2,7 @@ import PropTypes from "prop-types";
 import classes from "./MenuItem.module.scss";
 import VariantSelector from "./VariantSelector";
 import { useState } from "react";
+
 const MenuItem = (props) => {
   const [selectedVariant, setSelectedVariant] = useState(0);
   const isVarianted = props.item.variants ? true : false;
@@ -30,17 +31,11 @@ const MenuItem = (props) => {
         )}
       </h3>
       <div className={classes.card__item__body}>
-        {props.item.description ? (
-          <p className={classes.card__item__description}>
-            {selectedVariant === 0
-              ? props.item.description
-              : selectedVariant === 1
-              ? "Sandwich + 2 Tenders + Drink"
-              : selectedVariant === 2
-              ? "Sandwich + 3 Tenders + 2 Wings + Drink"
-              : null}
-          </p>
-        ) : null}
+        <p className={classes.card__item__description}>
+          {props.item.description
+            ? props.item.description
+            : props.item.variants[selectedVariant].description}
+        </p>
         {props.item.variants ? (
           <div className={classes.card__item__variant}>
             <VariantSelector

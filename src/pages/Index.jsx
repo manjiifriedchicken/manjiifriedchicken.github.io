@@ -1,7 +1,8 @@
-import menu from "../menu.ts";
+import { menu, sauces } from "../menu.ts";
 import MenuCard from "../components/MenuCard";
 import AppBackground from "../components/AppBackground";
 import { motion } from "framer-motion";
+import Sauces from "../components/UI/Sauces";
 
 import { useHookstate } from "@hookstate/core";
 import classes from "./Index.module.scss";
@@ -13,6 +14,7 @@ function App() {
   const screenHeight = window.innerHeight;
   return (
     <div className={classes.main}>
+      <Sauces sauces={sauces} />
       <AppBackground height={48 * (menuLength - 1)} />
       <motion.div
         style={{

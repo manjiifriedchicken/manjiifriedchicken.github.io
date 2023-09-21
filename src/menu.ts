@@ -17,14 +17,22 @@ interface MenuItemWithoutVariant {
 }
 interface MenuCategory {
   name: string;
+  type: "food" | "drink";
   background_color: string;
   color: string;
   items: (MenuItemWithVariant | MenuItemWithoutVariant)[];
 }
 
+interface Sauce {
+  name: string;
+  image?: string;
+  price: string;
+}
+
 const menu: MenuCategory[] = [
   {
     name: "Tavuk Burgerler",
+    type: "food",
     background_color: "#132A13",
     color: "#ECF39E",
     items: [
@@ -37,6 +45,12 @@ const menu: MenuCategory[] = [
               "Tokio sos, kızarmış tavuk butu, tatlı alman turşusu, coleslaw salata, cheddar peyniri.",
             price: "112₺",
           },
+          {
+            name: "Sandwich + İçecek",
+            description:
+              "Tokio sos, kızarmış tavuk butu, tatlı alman turşusu, coleslaw salata, cheddar peyniri.",
+            price: "142₺",
+          },
         ],
       },
       {
@@ -47,6 +61,12 @@ const menu: MenuCategory[] = [
             description:
               "Bonzai sos, kızarmış tavuk butu, jalepeno biber, white sos.",
             price: "112₺",
+          },
+          {
+            name: "Sandwich + İçecek",
+            description:
+              "Bonzai sos, kızarmış tavuk butu, jalepeno biber, white sos.",
+            price: "142₺",
           },
         ],
       },
@@ -59,6 +79,12 @@ const menu: MenuCategory[] = [
               "Krema sos, mantar, sarımsak tozu, mozarella peyniri, kızarmış tavuk butu, tatlı alman turşusu.",
             price: "122₺",
           },
+          {
+            name: "Sandwich + İçecek",
+            description:
+              "Krema sos, mantar, sarımsak tozu, mozarella peyniri, kızarmış tavuk butu, tatlı alman turşusu.",
+            price: "152₺",
+          },
         ],
       },
       {
@@ -70,6 +96,12 @@ const menu: MenuCategory[] = [
               "Kızarmış tavuk but, kızarmış peynir, sweet mayo, çıtır soğan, iceberg.",
             price: "124₺",
           },
+          {
+            name: "Sandwich + İçecek",
+            description:
+              "Kızarmış tavuk but, kızarmış peynir, sweet mayo, çıtır soğan, iceberg.",
+            price: "154₺",
+          },
         ],
       },
       {
@@ -79,6 +111,11 @@ const menu: MenuCategory[] = [
             name: "Sandwich",
             description: "Sweet mayo, Ballı BBQ soslu tavuk, cheddar, füme et.",
             price: "128₺",
+          },
+          {
+            name: "Sandwich + İçecek",
+            description: "Sweet mayo, Ballı BBQ soslu tavuk, cheddar, füme et.",
+            price: "158₺",
           },
         ],
       },
@@ -91,13 +128,20 @@ const menu: MenuCategory[] = [
               "Kızarmış tavuk but, white sos, çıtır soğan, kaşar peyniri, füme et.",
             price: "130₺",
           },
+          {
+            name: "Sandwich + İçecek",
+            description:
+              "Kızarmış tavuk but, white sos, çıtır soğan, kaşar peyniri, füme et.",
+            price: "130₺",
+          },
         ],
       },
     ],
   },
   {
     name: "Köfte Burgerler",
-    background_color: "#31572C",
+    type: "food",
+    background_color: "#2C4320",
     color: "#ECF39E",
     items: [
       {
@@ -108,6 +152,12 @@ const menu: MenuCategory[] = [
             description:
               "Artisian burger ekmeği, 130gr dana kaburga köftesi, cheddar peyniri, aioli sos, soğan, domates, iceberg, tatlı alman turşusu.",
             price: "180₺",
+          },
+          {
+            name: "Sandwich + İçecek",
+            description:
+              "Artisian burger ekmeği, 130gr dana kaburga köftesi, cheddar peyniri, aioli sos, soğan, domates, iceberg, tatlı alman turşusu.",
+            price: "210₺",
           },
         ],
       },
@@ -120,6 +170,12 @@ const menu: MenuCategory[] = [
               "Artisian burger ekmeği, 130gr dana kaburga köftesi, cheddar peyniri, algerienne sos, karamelize soğan, fıstıklı macar salam, tatlı alman turşusu.",
             price: "149₺",
           },
+          {
+            name: "Sandwich + İçecek",
+            description:
+              "Artisian burger ekmeği, 130gr dana kaburga köftesi, cheddar peyniri, algerienne sos, karamelize soğan, fıstıklı macar salam, tatlı alman turşusu.",
+            price: "179₺",
+          },
         ],
       },
       {
@@ -130,6 +186,12 @@ const menu: MenuCategory[] = [
             description:
               "Artisian burger ekmeği, 130gr dana kaburga köftesi, sunny side up yumurta, cheddar peyniri, chips master, white sos, tatlı alman turşusu.",
             price: "180₺",
+          },
+          {
+            name: "Sandwich + İçecek",
+            description:
+              "Artisian burger ekmeği, 130gr dana kaburga köftesi, sunny side up yumurta, cheddar peyniri, chips master, white sos, tatlı alman turşusu.",
+            price: "210₺",
           },
         ],
       },
@@ -142,13 +204,20 @@ const menu: MenuCategory[] = [
               "Artisian burger ekmeği, 130gr dana kaburga köftesi, kaşar peynir, jalapeno biber, acılı chips master, samurai sos.",
             price: "180₺",
           },
+          {
+            name: "Sandwich + İçecek",
+            description:
+              "Artisian burger ekmeği, 130gr dana kaburga köftesi, kaşar peynir, jalapeno biber, acılı chips master, samurai sos.",
+            price: "210₺",
+          },
         ],
       },
     ],
   },
   {
     name: "Tavuk Atıştırmalıkları",
-    background_color: "#4F772D",
+    type: "food",
+    background_color: "#455D2D",
     color: "#ECF39E",
     items: [
       {
@@ -170,7 +239,7 @@ const menu: MenuCategory[] = [
             price: "260₺",
           },
           {
-            name: "Menu Yanında 1",
+            name: "Menü Yanında 1",
             description: "Menü yanında 1 adet klasik tavuk kanadı",
             price: "30₺",
           },
@@ -198,7 +267,7 @@ const menu: MenuCategory[] = [
             price: "260₺",
           },
           {
-            name: "Menu Yanında 1",
+            name: "Menü Yanında 1",
             description: "Menü yanında 1 adet BBQ soslu tavuk kanadı",
             price: "30₺",
           },
@@ -226,7 +295,7 @@ const menu: MenuCategory[] = [
             price: "260₺",
           },
           {
-            name: "Menu Yanında 1",
+            name: "Menü Yanında 1",
             description: "Menü yanında 1 adet dinamit soslu tavuk kanadı",
             price: "30₺",
           },
@@ -254,7 +323,7 @@ const menu: MenuCategory[] = [
             price: "260₺",
           },
           {
-            name: "Menu Yanında 1",
+            name: "Menü Yanında 1",
             description: "Menü yanında 1 adet klasik chicken tender.",
             price: "30₺",
           },
@@ -264,7 +333,8 @@ const menu: MenuCategory[] = [
   },
   {
     name: "Soğuk İçecekler",
-    background_color: "#90A955",
+    type: "drink",
+    background_color: "#5E763B",
     color: "#ECF39E",
     items: [
       {
@@ -273,7 +343,7 @@ const menu: MenuCategory[] = [
       },
       {
         name: "Sade Soda",
-        price: "14₺",
+        price: "15₺",
       },
       {
         name: "Meyveli Soda",
@@ -281,29 +351,56 @@ const menu: MenuCategory[] = [
       },
       {
         name: "Ayran",
-        price: "16₺",
+        price: "22₺",
       },
       {
         name: "Su",
-        price: "5₺",
-      },
-      {
-        name: "Churchill",
-        price: "25₺",
+        price: "12₺",
       },
       {
         name: "Iced Caffe Americano",
-        price: "50₺",
-      },
-      {
-        name: "Iced Caffe Latte",
         price: "55₺",
       },
       {
-        name: "Iced Caffe Mocha",
+        name: "Iced Caffe Latte",
         price: "60₺",
       },
     ],
   },
+  {
+    name: "Sıcak İçecekler",
+    type: "drink",
+    background_color: "#779048",
+    color: "#ECF39E",
+    items: [
+      {
+        name: "Çay",
+        price: "12₺",
+      },
+      {
+        name: "Türk Kahvesi",
+        price: "35₺",
+      },
+      {
+        name: "Espresso",
+        price: "40₺",
+      },
+      {
+        name: "Americano",
+        price: "45₺",
+      },
+      {
+        name: "Latte",
+        price: "50₺",
+      },
+    ],
+  },
 ];
-export default menu;
+const sauces: Sauce[] = [
+  {
+    name: "Tokio Sos",
+    price: "10₺",
+  },
+];
+
+export { sauces, menu };
