@@ -1,4 +1,4 @@
-import menu from "../assets/menu.json";
+import menu from "../menu.ts";
 import MenuCard from "../components/MenuCard";
 import AppBackground from "../components/AppBackground";
 import { motion } from "framer-motion";
