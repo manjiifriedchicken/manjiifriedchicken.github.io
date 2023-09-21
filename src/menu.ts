@@ -43,13 +43,13 @@ const menu: MenuCategory[] = [
             name: "Sandwich",
             description:
               "Tokio sos, kızarmış tavuk butu, tatlı alman turşusu, coleslaw salata, cheddar peyniri.",
-            price: "112₺",
+            price: "130₺",
           },
           {
             name: "Sandwich + İçecek",
             description:
               "Tokio sos, kızarmış tavuk butu, tatlı alman turşusu, coleslaw salata, cheddar peyniri.",
-            price: "142₺",
+            price: "165₺",
           },
         ],
       },
@@ -60,13 +60,13 @@ const menu: MenuCategory[] = [
             name: "Sandwich",
             description:
               "Bonzai sos, kızarmış tavuk butu, jalepeno biber, white sos.",
-            price: "112₺",
+            price: "---₺",
           },
           {
             name: "Sandwich + İçecek",
             description:
               "Bonzai sos, kızarmış tavuk butu, jalepeno biber, white sos.",
-            price: "142₺",
+            price: "---₺",
           },
         ],
       },
@@ -94,13 +94,13 @@ const menu: MenuCategory[] = [
             name: "Sandwich",
             description:
               "Kızarmış tavuk but, kızarmış peynir, sweet mayo, çıtır soğan, iceberg.",
-            price: "124₺",
+            price: "---₺",
           },
           {
             name: "Sandwich + İçecek",
             description:
               "Kızarmış tavuk but, kızarmış peynir, sweet mayo, çıtır soğan, iceberg.",
-            price: "154₺",
+            price: "---₺",
           },
         ],
       },
@@ -151,13 +151,13 @@ const menu: MenuCategory[] = [
             name: "Sandwich",
             description:
               "Artisian burger ekmeği, 130gr dana kaburga köftesi, cheddar peyniri, aioli sos, soğan, domates, iceberg, tatlı alman turşusu.",
-            price: "180₺",
+            price: "145₺",
           },
           {
             name: "Sandwich + İçecek",
             description:
               "Artisian burger ekmeği, 130gr dana kaburga köftesi, cheddar peyniri, aioli sos, soğan, domates, iceberg, tatlı alman turşusu.",
-            price: "210₺",
+            price: "174₺",
           },
         ],
       },
@@ -168,13 +168,13 @@ const menu: MenuCategory[] = [
             name: "Sandwich",
             description:
               "Artisian burger ekmeği, 130gr dana kaburga köftesi, cheddar peyniri, algerienne sos, karamelize soğan, fıstıklı macar salam, tatlı alman turşusu.",
-            price: "149₺",
+            price: "150₺",
           },
           {
             name: "Sandwich + İçecek",
             description:
               "Artisian burger ekmeği, 130gr dana kaburga köftesi, cheddar peyniri, algerienne sos, karamelize soğan, fıstıklı macar salam, tatlı alman turşusu.",
-            price: "179₺",
+            price: "180₺",
           },
         ],
       },
@@ -185,13 +185,13 @@ const menu: MenuCategory[] = [
             name: "Sandwich",
             description:
               "Artisian burger ekmeği, 130gr dana kaburga köftesi, sunny side up yumurta, cheddar peyniri, chips master, white sos, tatlı alman turşusu.",
-            price: "180₺",
+            price: "150₺",
           },
           {
             name: "Sandwich + İçecek",
             description:
               "Artisian burger ekmeği, 130gr dana kaburga köftesi, sunny side up yumurta, cheddar peyniri, chips master, white sos, tatlı alman turşusu.",
-            price: "210₺",
+            price: "180₺",
           },
         ],
       },
@@ -202,13 +202,13 @@ const menu: MenuCategory[] = [
             name: "Sandwich",
             description:
               "Artisian burger ekmeği, 130gr dana kaburga köftesi, kaşar peynir, jalapeno biber, acılı chips master, samurai sos.",
-            price: "180₺",
+            price: "150₺",
           },
           {
             name: "Sandwich + İçecek",
             description:
               "Artisian burger ekmeği, 130gr dana kaburga köftesi, kaşar peynir, jalapeno biber, acılı chips master, samurai sos.",
-            price: "210₺",
+            price: "180₺",
           },
         ],
       },
@@ -227,19 +227,19 @@ const menu: MenuCategory[] = [
             name: "5'li",
             description:
               "5 adet klasik chicken tenders, patates kızartması, sos",
-            price: "140₺",
+            price: "120₺",
           },
           {
             name: "7'li",
             description:
               "7 adet klasik chicken tenders, patates kızartması, sos",
-            price: "200₺",
+            price: "132₺",
           },
           {
             name: "9'lu",
             description:
               "9 adet klasik chicken tenders, patates kızartması, sos",
-            price: "260₺",
+            price: "145₺",
           },
           {
             name: "Menü Yanında 1",
