@@ -1,16 +1,18 @@
 .sauceContainer {
   position: fixed;
   z-index: 3000;
-  top: 16px;
-  left: 16px;
+  top: 0;
+  right: 0;
+  padding: 16px;
   display: flex;
   .sauceOpener {
-    background: black;
+    background: #c64e1c;
     border-radius: 100%;
     width: 64px;
     height: 64px;
     display: flex;
     justify-content: center;
     align-items: center;
+    box-shadow: 5px 5px 10px 0px rgba(0, 0, 0, 0.75);
   }
 }
