@@ -21,7 +21,7 @@ const Sauces = (props) => {
       <motion.div
         animate={{
           height: isOpen ? "fit-content" : "0vh",
-          width: isOpen ? "212px" : "0vw",
+          width: isOpen ? "232px" : "0vw",
           padding: isOpen ? 16 : 0,
         }}
         style={{
@@ -43,7 +43,7 @@ const Sauces = (props) => {
               key={index}
               style={{
                 display: "flex",
-                width: 180,
+                width: 200,
                 justifyContent: "space-between",
               }}
             >
