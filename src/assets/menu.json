@@ -1,6 +1,7 @@
 [
   {
     "name": "Fried Chicken Burgers",
+    "type": "food",
     "background_color": "#132A13",
     "color": "#ECF39E",
     "items": [
@@ -74,6 +75,7 @@
   },
   {
     "name": "Beef Sandwich",
+    "type": "food",
     "background_color": "#31572C",
     "color": "#ECF39E",
     "items": [
@@ -103,6 +105,7 @@
   },
   {
     "name": "Chicken Menus",
+    "type": "food",
     "background_color": "#4F772D",
     "color": "#ECF39E",
     "items": [
@@ -110,28 +113,13 @@
         "name": "Manjii Chicken",
         "image": "productImages/davuk.jpg",
         "description": "Chicken, lettuce, tomato, onion, mayonnaise, ketchup, mustard, pickles, cheese, and a bun. Served with Potato Fries",
-        "variants": [
-          {
-            "name": "Sandwich",
-            "description": "Just Sandwich",
-            "price": "130₺"
-          },
-          {
-            "name": "Small Menu",
-            "description": "Sandwich + Drink + 2 Chicken Tenders",
-            "price": "150₺"
-          },
-          {
-            "name": "Large Menu",
-            "description": "Sandwich + Drink + 3 Tenders + 1 Wing",
-            "price": "180₺"
-          }
-        ]
+        "price": "30₺"
       }
     ]
   },
   {
     "name": "Soğuk İçecekler",
+    "type": "drink",
     "background_color": "#90A955",
     "color": "#ECF39E",
     "items": [
@@ -158,9 +146,6 @@
       {
         "name": "Churchill",
         "price": "25₺"
-      },
-      {
-        "name": "Divider"
       },
       {
         "name": "Iced Caffe Americano",

@@ -1,3 +1,19 @@
 .card__item__variant {
   display: flex;
+  gap: 16px;
+  justify-content: center;
+  align-items: center;
+  .card__item__variant__item {
+    font-size: 14px;
+    width: auto;
+    height: 40px;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 6px;
+    text-align: center;
+    aspect-ratio: 21/9;
+    padding: 4px;
+  }
 }
