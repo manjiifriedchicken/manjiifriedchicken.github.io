@@ -93,18 +93,13 @@ const menu: MenuCategory[] = [
         variants: [
           {
             name: "Sandwich",
-            price: "145₺",
+            price: "150₺",
           },
           {
-            name: "Marjinal X",
-            description: "Sandwich + İçecek + 2 Soğan Halkası + 2 Tenders",
-            price: "175₺",
-          },
-          {
-            name: "Marjinal L",
-            description: "Sandwich + İçecek + 1 Kanat + 1 Tenders",
-            price: "195₺",
-          },
+            name: "Sandwich + İçecek",
+            description: "Sandwich + İçecek",
+            price: "180₺",
+          }
         ],
       },
       {
@@ -118,14 +113,9 @@ const menu: MenuCategory[] = [
             price: "150₺",
           },
           {
-            name: "Algerienne X",
-            description: "Sandwich + İçecek + 2 Soğan Halkası + 2 Tenders",
+            name: "Sandwich + İçecek",
+            description: "Sandwich + İçecek",
             price: "180₺",
-          },
-          {
-            name: "Algerienne L",
-            description: "Sandwich + İçecek + 1 Kanat + 1 Tenders",
-            price: "200₺",
           },
         ],
       },
@@ -140,14 +130,9 @@ const menu: MenuCategory[] = [
             price: "150₺",
           },
           {
-            name: "Eggyshaggy X",
-            description: "Sandwich + İçecek + 2 Soğan Halkası + 2 Tenders",
+            name: "Sandwich + İçecek",
+            description: "Sandwich + İçecek",
             price: "180₺",
-          },
-          {
-            name: "Eggyshaggy L",
-            description: "Sandwich + İçecek + 1 Kanat + 1 Tenders",
-            price: "200₺",
           },
         ],
       },
