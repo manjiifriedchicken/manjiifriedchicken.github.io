@@ -60,7 +60,7 @@ const menu: MenuCategory[] = [
       {
         name: "London Burger",
         description:
-          "Artisian burger ekmeği, kızarmış M.F.C tavuk, Algarienne sos, dana macar salam, marul, soğan, patates kızartması.",
+          "Artisian burger ekmeği, kızarmış M.F.C tavuk, Algarienne sos, White Sos, dana macar salam, marul, soğan, patates kızartması.",
         variants: [
           {
             name: "Sandwich",
@@ -105,7 +105,7 @@ const menu: MenuCategory[] = [
       {
         name: "Algerienne Burger 🌶️",
         description:
-          "Artisian burger ekmeği, 130gr dana kaburga köftesi, cheddar peyniri, algerienne sos, karamelize soğan, fıstıklı macar salam, tatlı alman turşusu.",
+          "Artisian burger ekmeği, 130gr dana kaburga köftesi, cheddar peyniri, algerienne sos, fıstıklı macar salam, tatlı alman turşusu.",
 
         variants: [
           {
