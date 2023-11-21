@@ -33,5 +33,13 @@
     flex-direction: column;
     gap: 16px;
     width: 100%;
+    .card__item__variant__description {
+      padding: 8px;
+      border-radius: 4px;
+      max-width: max-content;
+      margin: auto;
+      text-align: center;
+      font-size: 14px;
+    }
   }
 }

@@ -31,13 +31,18 @@ const MenuItem = (props) => {
         )}
       </h3>
       <div className={classes.card__item__body}>
-        <p className={classes.card__item__description}>
-          {props.item.description
-            ? props.item.description
-            : ""}
-        </p>
+        {props.item.description ? (
+          <p className={classes.card__item__description}>
+            {props.item.description}
+          </p>
+        ) : null}
         {props.item.variants ? (
-          <div className={classes.card__item__variant}>
+          <>
+          {props.item.variants[selectedVariant].description ? 
+            <div className={classes.card__item__variant__description} style={{ color: props.categoryBackground, backgroundColor: props.categoryColor }}>
+              {props.item.variants[selectedVariant].description}
+            </div> : null
+          }
             <VariantSelector
               item={props.item}
               color={props.categoryColor}
@@ -45,7 +50,7 @@ const MenuItem = (props) => {
               selectedVariant={selectedVariant}
               setSelectedVariant={setSelectedVariant}
             />
-          </div>
+          </>
         ) : null}
       </div>
     </div>

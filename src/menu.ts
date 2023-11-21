@@ -46,12 +46,12 @@ const menu: MenuCategory[] = [
             price: "135₺",
           },
           {
-            name: "Jungle X",
+            name: "Tokio X",
             description: "Sandwich + İçecek + 2 Soğan Halkası + 2 Tenders",
             price: "165₺",
           },
           {
-            name: "Jungle L",
+            name: "Tokio L",
             description: "Sandwich + İçecek + 1 Kanat + 1 Tenders",
             price: "185₺",
           },
@@ -72,7 +72,7 @@ const menu: MenuCategory[] = [
             price: "165₺",
           },
           {
-            name: "Jungle L",
+            name: "London L",
             description: "Sandwich + İçecek + 1 Kanat + 1 Tenders",
             price: "185₺",
           },
@@ -161,80 +161,61 @@ const menu: MenuCategory[] = [
     items: [
       {
         name: "Chicken Tenders",
+        description: "Klasik chicken tenders, patates kızartması, sos",
         variants: [
           {
-            name: "5'li",
-            description:
-              "5 adet klasik chicken tenders, patates kızartması, sos",
+            name: "5'li Tenders",
             price: "145₺",
           },
           {
-            name: "7'li",
-            description:
-              "7 adet klasik chicken tenders, patates kızartması, sos",
+            name: "7'li Tenders",
             price: "155₺",
           },
           {
-            name: "9'lu",
-            description:
-              "9 adet klasik chicken tenders, patates kızartması, sos",
+            name: "9'lu Tenders",
             price: "165₺",
           },
         ],
       },
-    ],
-  },
-  {
-    name: "Kanatlar",
-    type: "food",
-    background_color: "#38542a",
-    color: "#ECF39E",
-    items: [
       {
         name: "Klasik Kanat",
+        description: "Klasik tavuk kanadı, patates kızartması, sos",
         variants: [
           {
-            name: "6'li",
-            description: "6 adet klasik tavuk kanadı, patates kızartması, sos",
+            name: "6'lı Kanat",
             price: "155₺",
           },
           {
-            name: "10'li",
-            description: "10 adet klasik tavuk kanadı, patates kızartması, sos",
+            name: "10'lu Kanat",
             price: "230₺",
           },
         ],
       },
       {
         name: "BBQ Kanat",
+        description: "BBQ soslu tavuk kanadı, patates kızartması, sos",
         variants: [
           {
-            name: "6'li",
-            description:
-              "6 adet BBQ soslu tavuk kanadı, patates kızartması, sos",
+            name: "6'lı BBQ Kanat",
             price: "155₺",
           },
           {
-            name: "10'lu",
-            description:
-              "10x adet BBQ soslu tavuk kanadı, patates kızartması, sos",
+            name: "10'lu BBQ Kanat",
             price: "230₺",
           },
         ],
       },
       {
         name: "Dinamit Kanat 🌶️🌶️",
+        description: "Dinamit soslu tavuk kanadı, patates kızartması, sos",
         variants: [
           {
-            name: "6'li",
-            description:
-              "5 adet dinamit soslu tavuk kanadı, patates kızartması, sos",
+            name: "6'lı Dinamit Kanat",
+
             price: "155₺",
           },
           {
-            name: "10'lu",
-            description:
-              "7 adet dinamit soslu tavuk kanadı, patates kızartması, sos",
+            name: "10'lu Dinamit Kanat",
             price: "230₺",
           },
         ],
