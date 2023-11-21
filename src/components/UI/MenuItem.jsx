@@ -34,7 +34,7 @@ const MenuItem = (props) => {
         <p className={classes.card__item__description}>
           {props.item.description
             ? props.item.description
-            : props.item.variants[selectedVariant].description}
+            : ""}
         </p>
         {props.item.variants ? (
           <div className={classes.card__item__variant}>

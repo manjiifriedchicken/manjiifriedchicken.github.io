@@ -1,6 +1,6 @@
 interface MenuItemVariant {
   name: string;
-  description: string;
+  description?: string;
   price: string;
 }
 interface MenuItemWithVariant {
@@ -38,104 +38,46 @@ const menu: MenuCategory[] = [
     items: [
       {
         name: "Tokio Burger",
+        description:
+          "Artisian burger ekmeği, kızarmış M.F.C tavuk, Tokyo sos, cheddar peyniri, alman turşu, colslaw salata, patates kızartması.",
         variants: [
           {
             name: "Sandwich",
-            description:
-              "Tokio sos, kızarmış tavuk butu, tatlı alman turşusu, coleslaw salata, cheddar peyniri.",
-            price: "130₺",
+            price: "135₺",
           },
           {
-            name: "Sandwich + İçecek",
-            description:
-              "Tokio sos, kızarmış tavuk butu, tatlı alman turşusu, coleslaw salata, cheddar peyniri.",
+            name: "Jungle X",
+            description: "Sandwich + İçecek + 2 Soğan Halkası + 2 Tenders",
             price: "165₺",
           },
+          {
+            name: "Jungle L",
+            description: "Sandwich + İçecek + 1 Kanat + 1 Tenders",
+            price: "185₺",
+          },
         ],
       },
       {
-        name: "Bonzai Burger 🌶️🌶️🌶️",
+        name: "London Burger",
+        description:
+          "Artisian burger ekmeği, kızarmış M.F.C tavuk, Algarienne sos, dana macar salam, marul, soğan, patates kızartması.",
         variants: [
           {
             name: "Sandwich",
-            description:
-              "Bonzai sos, kızarmış tavuk butu, jalepeno biber, white sos.",
-            price: "---₺",
+            price: "135₺",
           },
           {
-            name: "Sandwich + İçecek",
-            description:
-              "Bonzai sos, kızarmış tavuk butu, jalepeno biber, white sos.",
-            price: "---₺",
+            name: "London X",
+            description: "Sandwich + İçecek + 2 Soğan Halkası + 2 Tenders",
+            price: "165₺",
+          },
+          {
+            name: "Jungle L",
+            description: "Sandwich + İçecek + 1 Kanat + 1 Tenders",
+            price: "185₺",
           },
         ],
       },
-      //   {
-      //     name: "Alfredo Burger",
-      //     variants: [
-      //       {
-      //         name: "Sandwich",
-      //         description:
-      //           "Krema sos, mantar, sarımsak tozu, mozarella peyniri, kızarmış tavuk butu, tatlı alman turşusu.",
-      //         price: "122₺",
-      //       },
-      //       {
-      //         name: "Sandwich + İçecek",
-      //         description:
-      //           "Krema sos, mantar, sarımsak tozu, mozarella peyniri, kızarmış tavuk butu, tatlı alman turşusu.",
-      //         price: "152₺",
-      //       },
-      //     ],
-      //   },
-      {
-        name: "Dump Burger",
-        variants: [
-          {
-            name: "Sandwich",
-            description:
-              "Kızarmış tavuk but, kızarmış peynir, sweet mayo, çıtır soğan, iceberg.",
-            price: "---₺",
-          },
-          {
-            name: "Sandwich + İçecek",
-            description:
-              "Kızarmış tavuk but, kızarmış peynir, sweet mayo, çıtır soğan, iceberg.",
-            price: "---₺",
-          },
-        ],
-      },
-      //   {
-      //     name: "B. King Burger",
-      //     variants: [
-      //       {
-      //         name: "Sandwich",
-      //         description: "Sweet mayo, Ballı BBQ soslu tavuk, cheddar, füme et.",
-      //         price: "128₺",
-      //       },
-      //       {
-      //         name: "Sandwich + İçecek",
-      //         description: "Sweet mayo, Ballı BBQ soslu tavuk, cheddar, füme et.",
-      //         price: "158₺",
-      //       },
-      //     ],
-      //   },
-      //   {
-      //     name: "White Queen",
-      //     variants: [
-      //       {
-      //         name: "Sandwich",
-      //         description:
-      //           "Kızarmış tavuk but, white sos, çıtır soğan, kaşar peyniri, füme et.",
-      //         price: "130₺",
-      //       },
-      //       {
-      //         name: "Sandwich + İçecek",
-      //         description:
-      //           "Kızarmış tavuk but, white sos, çıtır soğan, kaşar peyniri, füme et.",
-      //         price: "130₺",
-      //       },
-      //     ],
-      //   },
     ],
   },
   {
@@ -146,69 +88,66 @@ const menu: MenuCategory[] = [
     items: [
       {
         name: "Marjinal Burger",
+        description:
+          "Artisian burger ekmeği, 130gr dana kaburga köftesi, cheddar peyniri, aioli sos, soğan, domates, iceberg, tatlı alman turşusu.",
         variants: [
           {
             name: "Sandwich",
-            description:
-              "Artisian burger ekmeği, 130gr dana kaburga köftesi, cheddar peyniri, aioli sos, soğan, domates, iceberg, tatlı alman turşusu.",
             price: "145₺",
           },
           {
-            name: "Sandwich + İçecek",
-            description:
-              "Artisian burger ekmeği, 130gr dana kaburga köftesi, cheddar peyniri, aioli sos, soğan, domates, iceberg, tatlı alman turşusu.",
-            price: "174₺",
+            name: "Marjinal X",
+            description: "Sandwich + İçecek + 2 Soğan Halkası + 2 Tenders",
+            price: "175₺",
+          },
+          {
+            name: "Marjinal L",
+            description: "Sandwich + İçecek + 1 Kanat + 1 Tenders",
+            price: "195₺",
           },
         ],
       },
       {
         name: "Algerienne Burger 🌶️",
+        description:
+          "Artisian burger ekmeği, 130gr dana kaburga köftesi, cheddar peyniri, algerienne sos, karamelize soğan, fıstıklı macar salam, tatlı alman turşusu.",
+
         variants: [
           {
             name: "Sandwich",
-            description:
-              "Artisian burger ekmeği, 130gr dana kaburga köftesi, cheddar peyniri, algerienne sos, karamelize soğan, fıstıklı macar salam, tatlı alman turşusu.",
             price: "150₺",
           },
           {
-            name: "Sandwich + İçecek",
-            description:
-              "Artisian burger ekmeği, 130gr dana kaburga köftesi, cheddar peyniri, algerienne sos, karamelize soğan, fıstıklı macar salam, tatlı alman turşusu.",
+            name: "Algerienne X",
+            description: "Sandwich + İçecek + 2 Soğan Halkası + 2 Tenders",
             price: "180₺",
+          },
+          {
+            name: "Algerienne L",
+            description: "Sandwich + İçecek + 1 Kanat + 1 Tenders",
+            price: "200₺",
           },
         ],
       },
       {
         name: "Eggyshaggy Burger",
+        description:
+          "Artisian burger ekmeği, 130gr dana kaburga köftesi, sunny side up yumurta, cheddar peyniri, chips master, white sos, tatlı alman turşusu.",
+
         variants: [
           {
             name: "Sandwich",
-            description:
-              "Artisian burger ekmeği, 130gr dana kaburga köftesi, sunny side up yumurta, cheddar peyniri, chips master, white sos, tatlı alman turşusu.",
             price: "150₺",
           },
           {
-            name: "Sandwich + İçecek",
-            description:
-              "Artisian burger ekmeği, 130gr dana kaburga köftesi, sunny side up yumurta, cheddar peyniri, chips master, white sos, tatlı alman turşusu.",
+            name: "Eggyshaggy X",
+            description: "Sandwich + İçecek + 2 Soğan Halkası + 2 Tenders",
             price: "180₺",
           },
-        ],
-      },
-      {
-        name: "Acapuleo Burger 🌶️🌶️🌶️",
-        variants: [
           {
-            name: "Sandwich",
-            description:
-              "Artisian burger ekmeği, 130gr dana kaburga köftesi, kaşar peynir, jalapeno biber, acılı chips master, samurai sos.",
-            price: "150₺",
-          },
-          {
-            name: "Sandwich + İçecek",
-            description:
-              "Artisian burger ekmeği, 130gr dana kaburga köftesi, kaşar peynir, jalapeno biber, acılı chips master, samurai sos.",
-            price: "180₺",
+            name: "Eggyshaggy L",
+            description: "Sandwich + İçecek + 1 Kanat + 1 Tenders",
+            price: "200₺",
           },
         ],
       },
@@ -227,24 +166,19 @@ const menu: MenuCategory[] = [
             name: "5'li",
             description:
               "5 adet klasik chicken tenders, patates kızartması, sos",
-            price: "120₺",
+            price: "145₺",
           },
           {
             name: "7'li",
             description:
               "7 adet klasik chicken tenders, patates kızartması, sos",
-            price: "132₺",
+            price: "155₺",
           },
           {
             name: "9'lu",
             description:
               "9 adet klasik chicken tenders, patates kızartması, sos",
-            price: "145₺",
-          },
-          {
-            name: "Menü Yanında 1",
-            description: "Menü yanında 1 adet klasik chicken tender.",
-            price: "30₺",
+            price: "165₺",
           },
         ],
       },
@@ -260,24 +194,14 @@ const menu: MenuCategory[] = [
         name: "Klasik Kanat",
         variants: [
           {
-            name: "5'li",
-            description: "5 adet klasik tavuk kanadı, patates kızartması, sos",
-            price: "140₺",
+            name: "6'li",
+            description: "6 adet klasik tavuk kanadı, patates kızartması, sos",
+            price: "155₺",
           },
           {
-            name: "7'li",
-            description: "7 adet klasik tavuk kanadı, patates kızartması, sos",
-            price: "200₺",
-          },
-          {
-            name: "9'lu",
-            description: "9 adet klasik tavuk kanadı, patates kızartması, sos",
-            price: "260₺",
-          },
-          {
-            name: "Menü Yanında 1",
-            description: "Menü yanında 1 adet klasik tavuk kanadı",
-            price: "30₺",
+            name: "10'li",
+            description: "10 adet klasik tavuk kanadı, patates kızartması, sos",
+            price: "230₺",
           },
         ],
       },
@@ -285,27 +209,16 @@ const menu: MenuCategory[] = [
         name: "BBQ Kanat",
         variants: [
           {
-            name: "5'li",
+            name: "6'li",
             description:
-              "5 adet BBQ soslu tavuk kanadı, patates kızartması, sos",
-            price: "140₺",
+              "6 adet BBQ soslu tavuk kanadı, patates kızartması, sos",
+            price: "155₺",
           },
           {
-            name: "7'li",
+            name: "10'lu",
             description:
-              "7 adet BBQ soslu tavuk kanadı, patates kızartması, sos",
-            price: "200₺",
-          },
-          {
-            name: "9'lu",
-            description:
-              "9 adet BBQ soslu tavuk kanadı, patates kızartması, sos",
-            price: "260₺",
-          },
-          {
-            name: "Menü Yanında 1",
-            description: "Menü yanında 1 adet BBQ soslu tavuk kanadı",
-            price: "30₺",
+              "10x adet BBQ soslu tavuk kanadı, patates kızartması, sos",
+            price: "230₺",
           },
         ],
       },
@@ -313,27 +226,16 @@ const menu: MenuCategory[] = [
         name: "Dinamit Kanat 🌶️🌶️",
         variants: [
           {
-            name: "5'li",
+            name: "6'li",
             description:
               "5 adet dinamit soslu tavuk kanadı, patates kızartması, sos",
-            price: "140₺",
+            price: "155₺",
           },
           {
-            name: "7'li",
+            name: "10'lu",
             description:
               "7 adet dinamit soslu tavuk kanadı, patates kızartması, sos",
-            price: "200₺",
-          },
-          {
-            name: "9'lu",
-            description:
-              "9 adet dinamit soslu tavuk kanadı, patates kızartması, sos",
-            price: "260₺",
-          },
-          {
-            name: "Menü Yanında 1",
-            description: "Menü yanında 1 adet dinamit soslu tavuk kanadı",
-            price: "30₺",
+            price: "230₺",
           },
         ],
       },
@@ -410,7 +312,7 @@ const sauces: Sauce[] = [
     price: "12₺",
   },
   {
-    name: "Algerienne Sos",
+    name: "Algerienne Sos 🌶️",
     price: "12₺",
   },
   {
