@@ -39,7 +39,7 @@ const menu: MenuCategory[] = [
       {
         name: "Tokio Burger",
         description:
-          "Artisian burger ekmeği, kızarmış M.F.C tavuk, Tokyo sos, cheddar peyniri, alman turşu, colslaw salata, patates kızartması.",
+          "Artisan burger ekmeği, kızarmış M.F.C tavuk, Tokyo sos, cheddar peyniri, alman turşu, colslaw salata, patates kızartması.",
         variants: [
           {
             name: "Sandwich",
@@ -60,7 +60,7 @@ const menu: MenuCategory[] = [
       {
         name: "London Burger",
         description:
-          "Artisian burger ekmeği, kızarmış M.F.C tavuk, Algarienne sos, White Sos, dana macar salam, marul, soğan, patates kızartması.",
+          "Artisan burger ekmeği, kızarmış M.F.C tavuk, Algarienne sos, White Sos, dana macar salam, marul, soğan, patates kızartması.",
         variants: [
           {
             name: "Sandwich",
@@ -87,13 +87,13 @@ const menu: MenuCategory[] = [
     color: "#ECF39E",
     items: [
       {
-        name: "Marjinal Burger",
+        name: "Manjinal Burger",
         description:
-          "Artisian burger ekmeği, 130gr dana kaburga köftesi, cheddar peyniri, aioli sos, soğan, domates, iceberg, tatlı alman turşusu.",
+          "Artisan burger ekmeği, 130gr dana kaburga köftesi, cheddar peyniri, aioli sos, soğan, domates, iceberg, tatlı alman turşusu.",
         variants: [
           {
             name: "Sandwich",
-            price: "150₺",
+            price: "165₺",
           },
           {
             name: "Sandwich + İçecek",
@@ -105,12 +105,12 @@ const menu: MenuCategory[] = [
       {
         name: "Algerienne Burger 🌶️",
         description:
-          "Artisian burger ekmeği, 130gr dana kaburga köftesi, cheddar peyniri, algerienne sos, fıstıklı macar salam, tatlı alman turşusu.",
+          "Artisan burger ekmeği, 130gr dana kaburga köftesi, cheddar peyniri, algerienne sos, fıstıklı macar salam, tatlı alman turşusu.",
 
         variants: [
           {
             name: "Sandwich",
-            price: "150₺",
+            price: "165₺",
           },
           {
             name: "Sandwich + İçecek",
@@ -122,12 +122,12 @@ const menu: MenuCategory[] = [
       {
         name: "Eggyshaggy Burger",
         description:
-          "Artisian burger ekmeği, 130gr dana kaburga köftesi, sunny side up yumurta, cheddar peyniri, chips master, white sos, tatlı alman turşusu.",
+          "Artisan burger ekmeği, 130gr dana kaburga köftesi, sunny side up yumurta, cheddar peyniri, chips master, white sos, tatlı alman turşusu.",
 
         variants: [
           {
             name: "Sandwich",
-            price: "150₺",
+            price: "165₺",
           },
           {
             name: "Sandwich + İçecek",
