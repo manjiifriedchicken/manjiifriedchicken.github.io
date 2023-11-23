@@ -317,22 +317,22 @@ const menu: MenuCategory[] = [
       },
     ],
   },
-  {
-    name: "Sıcak İçecekler",
-    type: "drink",
-    background_color: "#567239",
-    color: "#ECF39E",
-    items: [
-      {
-        name: "Çay",
-        price: "12₺",
-      },
-      {
-        name: "Türk Kahvesi",
-        price: "35₺",
-      },
-    ],
-  },
+  // {
+  //   name: "Sıcak İçecekler",
+  //   type: "drink",
+  //   background_color: "#567239",
+  //   color: "#ECF39E",
+  //   items: [
+  //     {
+  //       name: "Çay",
+  //       price: "12₺",
+  //     },
+  //     {
+  //       name: "Türk Kahvesi",
+  //       price: "35₺",
+  //     },
+  //   ],
+  // },
 ];
 const sauces: Sauce[] = [
   {
