@@ -4,7 +4,13 @@ const DrinkItem = (props) => {
   const variantColor = props.categoryColor + "CC";
   return (
     <div className={classes.drinkItem}>
-      <p className={classes.drinkTitle}>{props.item.name}</p>
+      <div className={classes.drinkTitle}>
+        <p>{props.item.name}</p>
+        {props.item.description && (
+          <p className={classes.drinkDescription}>{props.item.description}</p>
+        )}
+      </div>
+
       <p className={classes.drinkPrice} style={{ color: variantColor }}>
         {props.item.price}
       </p>

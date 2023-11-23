@@ -208,6 +208,80 @@ const menu: MenuCategory[] = [
     ],
   },
   {
+    name: "Kahveler",
+    type: "drink",
+    background_color: "#38542a",
+    color: "#ECF39E",
+    items: [
+      {
+        name: "Flat White",
+        description: "Avustralya'ya özgü sütlü bir kahve türü.",
+        price: "60₺",
+      },
+      {
+        name: "Wiener Melange",
+        description: "Avusturya'ya özgü sütlü bir kahve türü.",
+        price: "60₺",
+      },
+      {
+        name: "Cafe au Lait",
+        description: "Fransa'ya özgü sütlü bir kahve türü.",
+        price: "60₺",
+      },
+      {
+        name: "Kaffie Verkeerd",
+        description: "Hollanda'ya özgü sütlü bir kahve türü.",
+        price: "60₺",
+      },
+      {
+        name: "Kleiner Brauner",
+        description: "Avusturya'ya özgü sütlü espresso.",
+        price: "60₺",
+      },
+      {
+        name: "Caffe Crema",
+        price: "50₺"
+      },
+      {
+        name: "Cappiccino",
+        price: "60₺"
+      },
+      {
+        name: "Latte Macchiato",
+        price: "60₺"
+      },
+      {
+        name: "Caffe Latte",
+        price: "60₺"
+      },
+      {
+        name: "Espresso",
+        price: "40₺"
+      },
+      {
+        name: "Espresso Macchiato",
+        price: "45₺"
+      },
+      {
+        name: "Espresso Doppio",
+        price: "45₺"
+      },
+      {
+        name: "Ristretto",
+        price: "40₺"
+      },
+      {
+        name: "Americano",
+        price: "50₺"
+      },
+      {
+        name: "",
+        price: "",
+        description: "Double Shot Espresso ve Soğuk Kahvelerde 10₺ ek ücret alınır."
+      }
+    ]
+  },
+  {
     name: "Soğuk İçecekler",
     type: "drink",
     background_color: "#466332",
@@ -256,18 +330,6 @@ const menu: MenuCategory[] = [
       {
         name: "Türk Kahvesi",
         price: "35₺",
-      },
-      {
-        name: "Espresso",
-        price: "40₺",
-      },
-      {
-        name: "Americano",
-        price: "45₺",
-      },
-      {
-        name: "Latte",
-        price: "50₺",
       },
     ],
   },
