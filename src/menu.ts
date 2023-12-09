@@ -43,7 +43,7 @@ const menu: MenuCategory[] = [
         variants: [
           {
             name: "Sandwich",
-            price: "135₺",
+            price: "140₺",
           },
           {
             name: "Tokio X",
@@ -64,17 +64,17 @@ const menu: MenuCategory[] = [
         variants: [
           {
             name: "Sandwich",
-            price: "135₺",
+            price: "145₺",
           },
           {
             name: "London X",
             description: "Sandwich + İçecek + 2 Soğan Halkası + 2 Tenders",
-            price: "165₺",
+            price: "170₺",
           },
           {
             name: "London XL",
             description: "Sandwich + İçecek + 1 Kanat + 1 Tenders",
-            price: "185₺",
+            price: "190₺",
           },
         ],
       },
