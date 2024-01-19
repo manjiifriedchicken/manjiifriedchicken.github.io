@@ -43,17 +43,17 @@ const menu: MenuCategory[] = [
         variants: [
           {
             name: "Sandwich",
-            price: "135₺",
+            price: "155₺",
           },
           {
             name: "Tokio X",
             description: "Sandwich + İçecek + 2 Soğan Halkası + 2 Tenders",
-            price: "165₺",
+            price: "185₺",
           },
           {
             name: "Tokio L",
             description: "Sandwich + İçecek + 1 Kanat + 1 Tenders",
-            price: "185₺",
+            price: "205₺",
           },
         ],
       },
@@ -64,17 +64,17 @@ const menu: MenuCategory[] = [
         variants: [
           {
             name: "Sandwich",
-            price: "135₺",
+            price: "160₺",
           },
           {
             name: "London X",
             description: "Sandwich + İçecek + 2 Soğan Halkası + 2 Tenders",
-            price: "165₺",
+            price: "190₺",
           },
           {
             name: "London L",
             description: "Sandwich + İçecek + 1 Kanat + 1 Tenders",
-            price: "185₺",
+            price: "210₺",
           },
         ],
       },
@@ -93,12 +93,12 @@ const menu: MenuCategory[] = [
         variants: [
           {
             name: "Sandwich",
-            price: "165₺",
+            price: "175₺",
           },
           {
             name: "Sandwich + İçecek",
             description: "Sandwich + İçecek",
-            price: "180₺",
+            price: "195₺",
           }
         ],
       },
@@ -110,12 +110,12 @@ const menu: MenuCategory[] = [
         variants: [
           {
             name: "Sandwich",
-            price: "165₺",
+            price: "175₺",
           },
           {
             name: "Sandwich + İçecek",
             description: "Sandwich + İçecek",
-            price: "180₺",
+            price: "195₺",
           },
         ],
       },
@@ -127,12 +127,12 @@ const menu: MenuCategory[] = [
         variants: [
           {
             name: "Sandwich",
-            price: "165₺",
+            price: "175₺",
           },
           {
             name: "Sandwich + İçecek",
             description: "Sandwich + İçecek",
-            price: "180₺",
+            price: "195₺",
           },
         ],
       },
@@ -150,15 +150,15 @@ const menu: MenuCategory[] = [
         variants: [
           {
             name: "5'li Tenders",
-            price: "145₺",
+            price: "165₺",
           },
           {
             name: "7'li Tenders",
-            price: "155₺",
+            price: "175₺",
           },
           {
             name: "9'lu Tenders",
-            price: "165₺",
+            price: "185₺",
           },
         ],
       },
@@ -289,7 +289,7 @@ const menu: MenuCategory[] = [
     items: [
       {
         name: "Şişe/Kutu İçecekler",
-        price: "30₺",
+        price: "40₺",
       },
       {
         name: "Sade Soda",
