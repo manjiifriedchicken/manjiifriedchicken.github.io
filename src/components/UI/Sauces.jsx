@@ -59,5 +59,5 @@ const Sauces = (props) => {
 
 export default Sauces;
 Sauces.propTypes = {
-  sauces: PropTypes.object.isRequired,
+  sauces: PropTypes.array.isRequired,
 };
