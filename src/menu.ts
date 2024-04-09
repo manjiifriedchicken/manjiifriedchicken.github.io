@@ -43,17 +43,17 @@ const menu: MenuCategory[] = [
         variants: [
           {
             name: "Sandwich",
-            price: "155₺",
+            price: "175₺",
           },
           {
             name: "Tokio X",
             description: "Sandwich + İçecek + 2 Soğan Halkası + 2 Tenders",
-            price: "185₺",
+            price: "205₺",
           },
           {
             name: "Tokio XL",
             description: "Sandwich + İçecek + 1 Kanat + 1 Tenders",
-            price: "205₺",
+            price: "225₺",
           },
         ],
       },
@@ -64,17 +64,17 @@ const menu: MenuCategory[] = [
         variants: [
           {
             name: "Sandwich",
-            price: "160₺",
+            price: "180₺",
           },
           {
             name: "London X",
             description: "Sandwich + İçecek + 2 Soğan Halkası + 2 Tenders",
-            price: "190₺",
+            price: "210₺",
           },
           {
             name: "London XL",
             description: "Sandwich + İçecek + 1 Kanat + 1 Tenders",
-            price: "210₺",
+            price: "230₺",
           },
         ],
       },
@@ -93,12 +93,12 @@ const menu: MenuCategory[] = [
         variants: [
           {
             name: "Sandwich",
-            price: "175₺",
+            price: "195₺",
           },
           {
             name: "Sandwich + İçecek",
             description: "Sandwich + İçecek",
-            price: "195₺",
+            price: "215₺",
           }
         ],
       },
@@ -110,12 +110,12 @@ const menu: MenuCategory[] = [
         variants: [
           {
             name: "Sandwich",
-            price: "175₺",
+            price: "195₺",
           },
           {
             name: "Sandwich + İçecek",
             description: "Sandwich + İçecek",
-            price: "195₺",
+            price: "215₺",
           },
         ],
       },
@@ -127,12 +127,12 @@ const menu: MenuCategory[] = [
         variants: [
           {
             name: "Sandwich",
-            price: "175₺",
+            price: "195₺",
           },
           {
             name: "Sandwich + İçecek",
             description: "Sandwich + İçecek",
-            price: "195₺",
+            price: "215₺",
           },
         ],
       },
@@ -150,15 +150,15 @@ const menu: MenuCategory[] = [
         variants: [
           {
             name: "5'li Tenders",
-            price: "165₺",
+            price: "180₺",
           },
           {
             name: "7'li Tenders",
-            price: "175₺",
+            price: "190₺",
           },
           {
             name: "9'lu Tenders",
-            price: "185₺",
+            price: "200₺",
           },
         ],
       },
@@ -168,11 +168,11 @@ const menu: MenuCategory[] = [
         variants: [
           {
             name: "6'lı Kanat",
-            price: "155₺",
+            price: "170₺",
           },
           {
             name: "10'lu Kanat",
-            price: "230₺",
+            price: "245₺",
           },
         ],
       },
@@ -182,11 +182,11 @@ const menu: MenuCategory[] = [
         variants: [
           {
             name: "6'lı BBQ Kanat",
-            price: "155₺",
+            price: "170₺",
           },
           {
             name: "10'lu BBQ Kanat",
-            price: "230₺",
+            price: "245₺",
           },
         ],
       },
@@ -197,11 +197,11 @@ const menu: MenuCategory[] = [
           {
             name: "6'lı Dinamit Kanat",
 
-            price: "155₺",
+            price: "170₺",
           },
           {
             name: "10'lu Dinamit Kanat",
-            price: "230₺",
+            price: "245₺",
           },
         ],
       },
