@@ -43,12 +43,12 @@ const menu: MenuCategory[] = [
         variants: [
           {
             name: "Sandwich",
-            price: "175₺",
+            price: "195₺",
           },
           {
             name: "Tokio X",
             description: "Sandwich + İçecek + 2 Soğan Halkası + 2 Tenders",
-            price: "205₺",
+            price: "225₺",
           },
           {
             name: "Tokio XL",
@@ -64,12 +64,12 @@ const menu: MenuCategory[] = [
         variants: [
           {
             name: "Sandwich",
-            price: "180₺",
+            price: "205₺",
           },
           {
             name: "London X",
             description: "Sandwich + İçecek + 2 Soğan Halkası + 2 Tenders",
-            price: "210₺",
+            price: "230₺",
           },
           {
             name: "London XL",
@@ -93,12 +93,12 @@ const menu: MenuCategory[] = [
         variants: [
           {
             name: "Sandwich",
-            price: "195₺",
+            price: "215₺",
           },
           {
             name: "Sandwich + İçecek",
             description: "Sandwich + İçecek",
-            price: "215₺",
+            price: "235₺",
           }
         ],
       },
@@ -110,12 +110,12 @@ const menu: MenuCategory[] = [
         variants: [
           {
             name: "Sandwich",
-            price: "195₺",
+            price: "220₺",
           },
           {
             name: "Sandwich + İçecek",
             description: "Sandwich + İçecek",
-            price: "215₺",
+            price: "245₺",
           },
         ],
       },
@@ -127,12 +127,12 @@ const menu: MenuCategory[] = [
         variants: [
           {
             name: "Sandwich",
-            price: "195₺",
+            price: "220₺",
           },
           {
             name: "Sandwich + İçecek",
             description: "Sandwich + İçecek",
-            price: "215₺",
+            price: "245₺",
           },
         ],
       },
@@ -150,15 +150,15 @@ const menu: MenuCategory[] = [
         variants: [
           {
             name: "5'li Tenders",
-            price: "180₺",
+            price: "195₺",
           },
           {
             name: "7'li Tenders",
-            price: "190₺",
+            price: "205₺",
           },
           {
             name: "9'lu Tenders",
-            price: "200₺",
+            price: "215₺",
           },
         ],
       },
@@ -168,11 +168,11 @@ const menu: MenuCategory[] = [
         variants: [
           {
             name: "6'lı Kanat",
-            price: "170₺",
+            price: "185₺",
           },
           {
             name: "10'lu Kanat",
-            price: "245₺",
+            price: "265₺",
           },
         ],
       },
@@ -182,11 +182,11 @@ const menu: MenuCategory[] = [
         variants: [
           {
             name: "6'lı BBQ Kanat",
-            price: "170₺",
+            price: "185₺",
           },
           {
             name: "10'lu BBQ Kanat",
-            price: "245₺",
+            price: "265₺",
           },
         ],
       },
@@ -197,11 +197,11 @@ const menu: MenuCategory[] = [
           {
             name: "6'lı Dinamit Kanat",
 
-            price: "170₺",
+            price: "185₺",
           },
           {
             name: "10'lu Dinamit Kanat",
-            price: "245₺",
+            price: "265₺",
           },
         ],
       },
@@ -216,63 +216,63 @@ const menu: MenuCategory[] = [
       {
         name: "Flat White",
         description: "Avustralya'ya özgü sütlü bir kahve türü.",
-        price: "60₺",
+        price: "75₺",
       },
       {
         name: "Wiener Melange",
         description: "Avusturya'ya özgü sütlü bir kahve türü.",
-        price: "60₺",
+        price: "75₺",
       },
       {
         name: "Cafe au Lait",
         description: "Fransa'ya özgü sütlü bir kahve türü.",
-        price: "60₺",
+        price: "75₺",
       },
       {
         name: "Kaffie Verkeerd",
         description: "Hollanda'ya özgü sütlü bir kahve türü.",
-        price: "60₺",
+        price: "75₺",
       },
       {
         name: "Kleiner Brauner",
         description: "Avusturya'ya özgü sütlü espresso.",
-        price: "60₺",
+        price: "75₺",
       },
       {
         name: "Caffe Crema",
-        price: "50₺"
+        price: "65₺"
       },
       {
         name: "Cappiccino",
-        price: "60₺"
+        price: "75₺"
       },
       {
         name: "Latte Macchiato",
-        price: "60₺"
+        price: "75₺"
       },
       {
         name: "Caffe Latte",
-        price: "60₺"
+        price: "75₺"
       },
       {
         name: "Espresso",
-        price: "40₺"
+        price: "55₺"
       },
       {
         name: "Espresso Macchiato",
-        price: "45₺"
+        price: "60₺"
       },
       {
         name: "Espresso Doppio",
-        price: "45₺"
+        price: "60₺"
       },
       {
         name: "Ristretto",
-        price: "40₺"
+        price: "55₺"
       },
       {
         name: "Americano",
-        price: "50₺"
+        price: "65₺"
       },
       {
         name: "",
