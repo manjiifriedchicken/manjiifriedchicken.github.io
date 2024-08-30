@@ -337,51 +337,51 @@ const menu: MenuCategory[] = [
 const sauces: Sauce[] = [
   {
     name: "Tokio Sos",
-    price: "12₺",
+    price: "18₺",
   },
   {
     name: "Algerienne Sos 🌶️",
-    price: "12₺",
+    price: "18₺",
   },
   {
     name: "Samurai Sos 🌶️",
-    price: "12₺",
+    price: "18₺",
   },
   {
     name: "Richie Sos",
-    price: "12₺",
+    price: "18₺",
   },
   {
     name: "Dynamite Sos 🌶️🌶️",
-    price: "12₺",
+    price: "18₺",
   },
   {
     name: "White Sos",
-    price: "12₺",
+    price: "18₺",
   },
   {
     name: "Aioli Sos",
-    price: "12₺",
+    price: "18₺",
   },
   {
     name: "Sweet Chili Sos 🌶️",
-    price: "7.5₺",
+    price: "12₺",
   },
   {
     name: "BBQ Sos",
-    price: "7.5₺",
+    price: "12₺",
   },
   {
     name: "Buffalo Sos 🌶️",
-    price: "7.5₺",
+    price: "12₺",
   },
   {
     name: "Peri Peri Sos 🌶️",
-    price: "7.5₺",
+    price: "12₺",
   },
   {
     name: "Relish Sos",
-    price: "7.5₺",
+    price: "12₺",
   },
 ];
 
