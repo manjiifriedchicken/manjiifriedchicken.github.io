@@ -150,15 +150,15 @@ const menu: MenuCategory[] = [
         variants: [
           {
             name: "5'li Tenders",
-            price: "205₺",
+            price: "230₺",
           },
           {
             name: "7'li Tenders",
-            price: "225₺",
+            price: "250₺",
           },
           {
             name: "9'lu Tenders",
-            price: "255₺",
+            price: "280₺",
           },
         ],
       },
@@ -168,11 +168,11 @@ const menu: MenuCategory[] = [
         variants: [
           {
             name: "6'lı Kanat",
-            price: "205₺",
+            price: "230₺",
           },
           {
             name: "10'lu Kanat",
-            price: "285₺",
+            price: "310₺",
           },
         ],
       },
@@ -182,11 +182,11 @@ const menu: MenuCategory[] = [
         variants: [
           {
             name: "6'lı BBQ Kanat",
-            price: "205₺",
+            price: "230₺",
           },
           {
             name: "10'lu BBQ Kanat",
-            price: "285₺",
+            price: "315₺",
           },
         ],
       },
@@ -197,11 +197,11 @@ const menu: MenuCategory[] = [
           {
             name: "6'lı Dinamit Kanat",
 
-            price: "205₺",
+            price: "230₺",
           },
           {
             name: "10'lu Dinamit Kanat",
-            price: "285₺",
+            price: "310₺",
           },
         ],
       },
