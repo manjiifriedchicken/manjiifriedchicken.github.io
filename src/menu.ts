@@ -43,17 +43,17 @@ const menu: MenuCategory[] = [
         variants: [
           {
             name: "Sandwich",
-            price: "220₺",
+            price: "245₺",
           },
           {
             name: "Tokio X",
             description: "Sandwich + İçecek + 2 Soğan Halkası + 2 Tenders",
-            price: "250₺",
+            price: "275₺",
           },
           {
             name: "Tokio XL",
             description: "Sandwich + İçecek + 1 Kanat + 1 Tenders",
-            price: "250₺",
+            price: "275₺",
           },
         ],
       },
@@ -64,17 +64,17 @@ const menu: MenuCategory[] = [
         variants: [
           {
             name: "Sandwich",
-            price: "230₺",
+            price: "255₺",
           },
           {
             name: "London X",
             description: "Sandwich + İçecek + 2 Soğan Halkası + 2 Tenders",
-            price: "260₺",
+            price: "285₺",
           },
           {
             name: "London XL",
             description: "Sandwich + İçecek + 1 Kanat + 1 Tenders",
-            price: "260₺",
+            price: "285₺",
           },
         ],
       },
@@ -93,12 +93,12 @@ const menu: MenuCategory[] = [
         variants: [
           {
             name: "Sandwich",
-            price: "240₺",
+            price: "270₺",
           },
           {
             name: "Sandwich + İçecek",
             description: "Sandwich + İçecek",
-            price: "260₺",
+            price: "290₺",
           }
         ],
       },
@@ -110,12 +110,12 @@ const menu: MenuCategory[] = [
         variants: [
           {
             name: "Sandwich",
-            price: "250₺",
+            price: "280₺",
           },
           {
             name: "Sandwich + İçecek",
             description: "Sandwich + İçecek",
-            price: "270₺",
+            price: "300₺",
           },
         ],
       },
@@ -127,12 +127,12 @@ const menu: MenuCategory[] = [
         variants: [
           {
             name: "Sandwich",
-            price: "250₺",
+            price: "280₺",
           },
           {
             name: "Sandwich + İçecek",
             description: "Sandwich + İçecek",
-            price: "270₺",
+            price: "300₺",
           },
         ],
       },
