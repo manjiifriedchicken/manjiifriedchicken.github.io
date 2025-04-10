@@ -43,17 +43,17 @@ const menu: MenuCategory[] = [
         variants: [
           {
             name: "Sandwich",
-            price: "245₺",
+            price: "260₺",
           },
           {
             name: "Tokio X",
             description: "Sandwich + İçecek + 2 Soğan Halkası + 2 Tenders",
-            price: "275₺",
+            price: "290₺",
           },
           {
             name: "Tokio XL",
             description: "Sandwich + İçecek + 1 Kanat + 1 Tenders",
-            price: "275₺",
+            price: "290₺",
           },
         ],
       },
@@ -64,17 +64,17 @@ const menu: MenuCategory[] = [
         variants: [
           {
             name: "Sandwich",
-            price: "255₺",
+            price: "270₺",
           },
           {
             name: "London X",
             description: "Sandwich + İçecek + 2 Soğan Halkası + 2 Tenders",
-            price: "285₺",
+            price: "300₺",
           },
           {
             name: "London XL",
             description: "Sandwich + İçecek + 1 Kanat + 1 Tenders",
-            price: "285₺",
+            price: "300₺",
           },
         ],
       },
@@ -89,24 +89,7 @@ const menu: MenuCategory[] = [
       {
         name: "Manjinal Burger",
         description:
-          "Artisan burger ekmeği, 130gr dana kaburga köftesi, cheddar peyniri, aioli sos, soğan, domates, iceberg, tatlı alman turşusu.",
-        variants: [
-          {
-            name: "Sandwich",
-            price: "270₺",
-          },
-          {
-            name: "Sandwich + İçecek",
-            description: "Sandwich + İçecek",
-            price: "290₺",
-          }
-        ],
-      },
-      {
-        name: "Algerienne Burger 🌶️",
-        description:
-          "Artisan burger ekmeği, 130gr dana kaburga köftesi, cheddar peyniri, algerienne sos, fıstıklı macar salam, tatlı alman turşusu.",
-
+          "Artisan burger ekmeği, 130gr dana kaburga köftesi, cheddar peyniri, aioli sos, soğan, domates, iceberg, ankara çubuk.",
         variants: [
           {
             name: "Sandwich",
@@ -116,27 +99,154 @@ const menu: MenuCategory[] = [
             name: "Sandwich + İçecek",
             description: "Sandwich + İçecek",
             price: "300₺",
+          },
+        ],
+      },
+      {
+        name: "Algerienne Burger 🌶️",
+        description:
+          "Artisan burger ekmeği, 130gr dana kaburga köftesi, cheddar peyniri, algerienne sos, fıstıklı macar salam, ankara çubuk.",
+
+        variants: [
+          {
+            name: "Sandwich",
+            price: "300₺",
+          },
+          {
+            name: "Sandwich + İçecek",
+            description: "Sandwich + İçecek",
+            price: "320₺",
           },
         ],
       },
       {
         name: "Eggyshaggy Burger",
         description:
-          "Artisan burger ekmeği, 130gr dana kaburga köftesi, sunny side up yumurta, cheddar peyniri, chips master, white sos, tatlı alman turşusu.",
+          "Artisan burger ekmeği, 130gr dana kaburga köftesi, sunny side up yumurta, cheddar peyniri, chips master, white sos, ankara çubuk.",
 
         variants: [
           {
             name: "Sandwich",
-            price: "280₺",
+            price: "300₺",
           },
           {
             name: "Sandwich + İçecek",
             description: "Sandwich + İçecek",
+            price: "320₺",
+          },
+        ],
+      },
+      {
+        name: "Smoky Burger",
+        description:
+          "Artisan burger ekmeği, 130gr dana kaburga köftesi, karabiberli rosebeef, çift cheddar peyniri, tütsülenmiş mayonez, biber ezmesi, soğan, ankara çubuk.",
+        variants: [
+          {
+            name: "Sandwich",
+            price: "330₺",
+          },
+          {
+            name: "Sandwich + İçecek",
+            description: "Sandwich + İçecek",
+            price: "350₺",
+          },
+        ],
+      },
+      {
+        name: "Relish Burger",
+        description:
+          "Artisan burger ekmeği, 130gr dana kaburga köftesi, cheddar peyniri, homemade relish sos, marul, soğan, domates, ankara çubuk.",
+        variants: [
+          {
+            name: "Sandwich",
             price: "300₺",
+          },
+          {
+            name: "Sandwich + İçecek",
+            description: "Sandwich + İçecek",
+            price: "320₺",
           },
         ],
       },
     ],
+  },
+  {
+    name: "Burritolar / Wrapler",
+    type: "food",
+    background_color: "#253F1F",
+    color: "#ECF39E",
+    items: [
+      {
+        name: "Izgara Tavuk Burrito",
+        description: "Izgara tavuk, çift lavaş, algerienne sos, ranch sos, patates, domates, marul, soğan.",
+        variants: [
+          {
+            name: "Burrito",
+            price: "175₺"
+          },
+          {
+            name: "Burrito + İçecek",
+            price: "200₺"
+          }
+        ]
+      },
+      {
+        name: "Sezar Tavuk Burrito",
+        description: "Izgara tavuk, çift lavaş, sezar sos, patates, domates, marul, soğan",
+        variants: [
+          {
+            name: "Burrito",
+            price: "175₺"
+          },
+          {
+            name: "Burrito + İçecek",
+            price: "200₺"
+          }
+        ]
+      },
+      {
+        name: "M.F.C. Burrito",
+        description: "Kızarmış M.F.C tavuk, çift lavaş, algerienne sos, ranch sos, ranch sos, patates, domates, marul, soğan.",
+        variants: [
+          {
+            name: "Burrito",
+            price: "220₺"
+          },
+          {
+            name: "Burrito + İçecek",
+            price: "240₺"
+          }
+        ]
+      },
+      {
+        name: "Dinamit M.F.C. Burrito 🌶️🌶️",
+        description: "Kızarmış M.F.C tavuk, çift lavaş, dinamit sos, ranch sos, patates, domates, marul.",
+        variants: [
+          {
+            name: "Burrito",
+            price: "220₺"
+          },
+          {
+            name: "Burrito + İçecek",
+            price: "240₺"
+          }
+        ]
+      },
+      {
+        name: "Kıymalı Burrito",
+        description: "130gr dana kaburga kıyması, çift lavaş, algerienne sos, ranch sos, patates, domates, marul, soğan.",
+        variants: [
+          {
+            name: "Burrito",
+            price: "230₺"
+          },
+          {
+            name: "Burrito + İçecek",
+            price: "250₺"
+          }
+        ]
+      },
+    ]
   },
   {
     name: "Tavuk Atıştırmalıkları",
@@ -240,46 +350,47 @@ const menu: MenuCategory[] = [
       },
       {
         name: "Caffe Crema",
-        price: "85₺"
+        price: "85₺",
       },
       {
         name: "Cappiccino",
-        price: "95₺"
+        price: "95₺",
       },
       {
         name: "Latte Macchiato",
-        price: "95₺"
+        price: "95₺",
       },
       {
         name: "Caffe Latte",
-        price: "95₺"
+        price: "95₺",
       },
       {
         name: "Espresso",
-        price: "75₺"
+        price: "75₺",
       },
       {
         name: "Espresso Macchiato",
-        price: "80₺"
+        price: "80₺",
       },
       {
         name: "Espresso Doppio",
-        price: "80₺"
+        price: "80₺",
       },
       {
         name: "Ristretto",
-        price: "75₺"
+        price: "75₺",
       },
       {
         name: "Americano",
-        price: "85₺"
+        price: "85₺",
       },
       {
         name: "",
         price: "",
-        description: "Double Shot Espresso ve Soğuk Kahvelerde 20₺ ek ücret alınır."
-      }
-    ]
+        description:
+          "Double Shot Espresso ve Soğuk Kahvelerde 20₺ ek ücret alınır.",
+      },
+    ],
   },
   {
     name: "Soğuk İçecekler",
