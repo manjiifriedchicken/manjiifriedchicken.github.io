@@ -427,7 +427,7 @@ const menu: MenuCategory[] = [
         price: "85₺",
       },
     ],
-  },
+  }
   // {
   //   name: "Sıcak İçecekler",
   //   type: "drink",
