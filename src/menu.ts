@@ -43,17 +43,17 @@ const menu: MenuCategory[] = [
         variants: [
           {
             name: "Sandwich",
-            price: "260₺",
+            price: "290₺",
           },
           {
             name: "Tokio X",
             description: "Sandwich + İçecek + 2 Soğan Halkası + 2 Tenders",
-            price: "290₺",
+            price: "320₺",
           },
           {
             name: "Tokio XL",
             description: "Sandwich + İçecek + 1 Kanat + 1 Tenders",
-            price: "290₺",
+            price: "320₺",
           },
         ],
       },
@@ -64,17 +64,17 @@ const menu: MenuCategory[] = [
         variants: [
           {
             name: "Sandwich",
-            price: "270₺",
+            price: "300₺",
           },
           {
             name: "London X",
             description: "Sandwich + İçecek + 2 Soğan Halkası + 2 Tenders",
-            price: "300₺",
+            price: "330₺",
           },
           {
             name: "London XL",
             description: "Sandwich + İçecek + 1 Kanat + 1 Tenders",
-            price: "300₺",
+            price: "330₺",
           },
         ],
       },
@@ -83,7 +83,7 @@ const menu: MenuCategory[] = [
   {
     name: "Köfte Burgerler",
     type: "food",
-    background_color: "#1e381b",
+    background_color: "#1a3217",
     color: "#ECF39E",
     items: [
       {
@@ -93,12 +93,12 @@ const menu: MenuCategory[] = [
         variants: [
           {
             name: "Sandwich",
-            price: "280₺",
+            price: "310₺",
           },
           {
             name: "Sandwich + İçecek",
             description: "Sandwich + İçecek",
-            price: "300₺",
+            price: "330₺",
           },
         ],
       },
@@ -107,39 +107,6 @@ const menu: MenuCategory[] = [
         description:
           "Artisan burger ekmeği, 130gr dana kaburga köftesi, cheddar peyniri, algerienne sos, fıstıklı macar salam, ankara çubuk.",
 
-        variants: [
-          {
-            name: "Sandwich",
-            price: "300₺",
-          },
-          {
-            name: "Sandwich + İçecek",
-            description: "Sandwich + İçecek",
-            price: "320₺",
-          },
-        ],
-      },
-      {
-        name: "Eggyshaggy Burger",
-        description:
-          "Artisan burger ekmeği, 130gr dana kaburga köftesi, sunny side up yumurta, cheddar peyniri, chips master, white sos, ankara çubuk.",
-
-        variants: [
-          {
-            name: "Sandwich",
-            price: "300₺",
-          },
-          {
-            name: "Sandwich + İçecek",
-            description: "Sandwich + İçecek",
-            price: "320₺",
-          },
-        ],
-      },
-      {
-        name: "Smoky Burger",
-        description:
-          "Artisan burger ekmeği, 130gr dana kaburga köftesi, karabiberli rosebeef, çift cheddar peyniri, tütsülenmiş mayonez, biber ezmesi, soğan, ankara çubuk.",
         variants: [
           {
             name: "Sandwich",
@@ -153,18 +120,51 @@ const menu: MenuCategory[] = [
         ],
       },
       {
+        name: "Eggyshaggy Burger",
+        description:
+          "Artisan burger ekmeği, 130gr dana kaburga köftesi, sunny side up yumurta, cheddar peyniri, chips master, white sos, ankara çubuk.",
+
+        variants: [
+          {
+            name: "Sandwich",
+            price: "330₺",
+          },
+          {
+            name: "Sandwich + İçecek",
+            description: "Sandwich + İçecek",
+            price: "350₺",
+          },
+        ],
+      },
+      {
+        name: "Smoky Burger",
+        description:
+          "Artisan burger ekmeği, 130gr dana kaburga köftesi, karabiberli rosebeef, çift cheddar peyniri, tütsülenmiş mayonez, biber ezmesi, soğan, ankara çubuk.",
+        variants: [
+          {
+            name: "Sandwich",
+            price: "360₺",
+          },
+          {
+            name: "Sandwich + İçecek",
+            description: "Sandwich + İçecek",
+            price: "380₺",
+          },
+        ],
+      },
+      {
         name: "Relish Burger",
         description:
           "Artisan burger ekmeği, 130gr dana kaburga köftesi, cheddar peyniri, homemade relish sos, marul, soğan, domates, ankara çubuk.",
         variants: [
           {
             name: "Sandwich",
-            price: "300₺",
+            price: "330₺",
           },
           {
             name: "Sandwich + İçecek",
             description: "Sandwich + İçecek",
-            price: "320₺",
+            price: "350₺",
           },
         ],
       },
@@ -173,7 +173,7 @@ const menu: MenuCategory[] = [
   {
     name: "Burritolar / Wrapler",
     type: "food",
-    background_color: "#253F1F",
+    background_color: "#21391c",
     color: "#ECF39E",
     items: [
       {
@@ -182,25 +182,11 @@ const menu: MenuCategory[] = [
         variants: [
           {
             name: "Burrito",
-            price: "175₺"
+            price: "200₺"
           },
           {
             name: "Burrito + İçecek",
-            price: "200₺"
-          }
-        ]
-      },
-      {
-        name: "Sezar Tavuk Burrito",
-        description: "Izgara tavuk, çift lavaş, sezar sos, patates, domates, marul, soğan",
-        variants: [
-          {
-            name: "Burrito",
-            price: "175₺"
-          },
-          {
-            name: "Burrito + İçecek",
-            price: "200₺"
+            price: "220₺"
           }
         ]
       },
@@ -210,11 +196,11 @@ const menu: MenuCategory[] = [
         variants: [
           {
             name: "Burrito",
-            price: "220₺"
+            price: "250₺"
           },
           {
             name: "Burrito + İçecek",
-            price: "240₺"
+            price: "270₺"
           }
         ]
       },
@@ -224,25 +210,11 @@ const menu: MenuCategory[] = [
         variants: [
           {
             name: "Burrito",
-            price: "220₺"
-          },
-          {
-            name: "Burrito + İçecek",
-            price: "240₺"
-          }
-        ]
-      },
-      {
-        name: "Kıymalı Burrito",
-        description: "130gr dana kaburga kıyması, çift lavaş, algerienne sos, ranch sos, patates, domates, marul, soğan.",
-        variants: [
-          {
-            name: "Burrito",
-            price: "230₺"
-          },
-          {
-            name: "Burrito + İçecek",
             price: "250₺"
+          },
+          {
+            name: "Burrito + İçecek",
+            price: "270₺"
           }
         ]
       },
@@ -251,7 +223,7 @@ const menu: MenuCategory[] = [
   {
     name: "Tavuk Atıştırmalıkları",
     type: "food",
-    background_color: "#2b4622",
+    background_color: "#284120",
     color: "#ECF39E",
     items: [
       {
@@ -260,15 +232,15 @@ const menu: MenuCategory[] = [
         variants: [
           {
             name: "5'li Tenders",
-            price: "230₺",
+            price: "260₺",
           },
           {
             name: "7'li Tenders",
-            price: "250₺",
+            price: "280₺",
           },
           {
             name: "9'lu Tenders",
-            price: "280₺",
+            price: "310₺",
           },
         ],
       },
@@ -278,11 +250,11 @@ const menu: MenuCategory[] = [
         variants: [
           {
             name: "6'lı Kanat",
-            price: "230₺",
+            price: "260₺",
           },
           {
             name: "10'lu Kanat",
-            price: "310₺",
+            price: "340₺",
           },
         ],
       },
@@ -292,11 +264,11 @@ const menu: MenuCategory[] = [
         variants: [
           {
             name: "6'lı BBQ Kanat",
-            price: "230₺",
+            price: "260₺",
           },
           {
             name: "10'lu BBQ Kanat",
-            price: "315₺",
+            price: "340₺",
           },
         ],
       },
@@ -307,82 +279,140 @@ const menu: MenuCategory[] = [
           {
             name: "6'lı Dinamit Kanat",
 
-            price: "230₺",
+            price: "260₺",
           },
           {
             name: "10'lu Dinamit Kanat",
-            price: "310₺",
+            price: "340₺",
           },
         ],
       },
     ],
   },
   {
+    name: "Patates Kızartmaları",
+    type: "food",
+    background_color: "#2f4924",
+    color: "#ECF39E",
+    items: [
+      {
+        name: "Basic Fries",
+        price: "130₺",
+      },
+      {
+        name: "Cheddar Bomb Fries",
+        description: "Patates Kızartması, M.F.C. tavuk parçaları, bol cheddar sos, taze soğan, salatalık turşusu.",
+        price: "270₺",
+      },
+      {
+        name: "Hot Bomb Fries",
+        description: "Patates Kızartması, M.F.C. tavuk parçaları, jalepeno biber, cheddar peyniri, taze soğan, salatalık turşusu, buffalo, algerienne ve ranch sos.",
+        price: "250₺",
+      },
+    ],
+  },
+  {
+    name: "Bowl",
+    type: "food",
+    background_color: "#375229",
+    color: "#ECF39E",
+    items: [
+      {
+        name: "Big Bowl",
+        description: "Patates kızartması, coleslaw salata, 130gr köfte, 3 adet tenders, 2 adet soğan halkası, füme kaburga dilimleri, iki çeşit sos.",
+        price: "420₺",
+      },
+      {
+        name: "Chicken Bowl",
+        description: "Patates kızartması, coleslaw salata, 2 adet tenders, 2 adet soğan halkası, iki çeşit sos.",
+        price: "420₺",
+      },
+    ],
+  },
+  {
+    name: "Salatalar",
+    type: "food",
+    background_color: "#405a2d",
+    color: "#ECF39E",
+    items: [
+      {
+        name: "M.F.C. Salata",
+        description: "Akdeniz yeşillikleri, domates, salatalık, zeytin, mısır, mevsim meyvesi, M.F.C. tavuk, Manjii sos.",
+        price: "270₺",
+      },
+      {
+        name: "Izgara Salata",
+        description: "Akdeniz yeşillikleri, domates, salatalık, zeytin, mısır, mevsim meyvesi, ızgara tavuk, Manjii sos.",
+        price: "270₺",
+      },
+    ],
+  },
+  {
     name: "Kahveler",
     type: "drink",
-    background_color: "#38542a",
+    background_color: "#496231",
     color: "#ECF39E",
     items: [
       {
         name: "Flat White",
         description: "Avustralya'ya özgü sütlü bir kahve türü.",
-        price: "95₺",
+        price: "130₺",
       },
       {
         name: "Wiener Melange",
         description: "Avusturya'ya özgü sütlü bir kahve türü.",
-        price: "95₺",
+        price: "130₺",
       },
       {
         name: "Cafe au Lait",
         description: "Fransa'ya özgü sütlü bir kahve türü.",
-        price: "95₺",
+        price: "130₺",
       },
       {
         name: "Kaffie Verkeerd",
         description: "Hollanda'ya özgü sütlü bir kahve türü.",
-        price: "95₺",
+        price: "130₺",
       },
       {
         name: "Kleiner Brauner",
         description: "Avusturya'ya özgü sütlü espresso.",
-        price: "95₺",
+        price: "130₺",
       },
       {
         name: "Caffe Crema",
-        price: "85₺",
+        price: "120₺",
       },
       {
         name: "Cappiccino",
-        price: "95₺",
+        price: "130₺",
       },
       {
         name: "Latte Macchiato",
-        price: "95₺",
+        price: "130₺",
       },
       {
         name: "Caffe Latte",
-        price: "95₺",
+        price: "130₺",
       },
       {
         name: "Espresso",
-        price: "75₺",
+        price: "110₺",
       },
       {
         name: "Espresso Macchiato",
-        price: "80₺",
+        price: "120₺",
       },
       {
         name: "Espresso Doppio",
-        price: "80₺",
+        price: "120₺",
       },
       {
         name: "Ristretto",
-        price: "75₺",
+        price: "110₺",
       },
       {
         name: "Americano",
-        price: "85₺",
+        price: "120₺",
       },
       {
         name: "",
@@ -395,55 +425,51 @@ const menu: MenuCategory[] = [
   {
     name: "Soğuk İçecekler",
     type: "drink",
-    background_color: "#466332",
+    background_color: "#526b36",
     color: "#ECF39E",
     items: [
       {
         name: "Şişe/Kutu İçecekler",
-        price: "50₺",
-      },
-      {
-        name: "Sade Soda",
-        price: "20₺",
-      },
-      {
-        name: "Meyveli Soda",
-        price: "25₺",
-      },
-      {
-        name: "Ayran",
-        price: "30₺",
-      },
-      {
-        name: "Su",
-        price: "15₺",
-      },
-      {
-        name: "Iced Caffe Americano",
         price: "70₺",
       },
       {
+        name: "Sade Soda",
+        price: "40₺",
+      },
+      {
+        name: "Meyveli Soda",
+        price: "45₺",
+      },
+      {
+        name: "Ayran",
+        price: "45₺",
+      },
+      {
+        name: "Su",
+        price: "25₺",
+      },
+      {
+        name: "Iced Caffe Americano",
+        price: "140₺",
+      },
+      {
         name: "Iced Caffe Latte",
-        price: "85₺",
+        price: "150₺",
       },
     ],
-  }
-  // {
-  //   name: "Sıcak İçecekler",
-  //   type: "drink",
-  //   background_color: "#567239",
-  //   color: "#ECF39E",
-  //   items: [
-  //     {
-  //       name: "Çay",
-  //       price: "12₺",
-  //     },
-  //     {
-  //       name: "Türk Kahvesi",
-  //       price: "35₺",
-  //     },
-  //   ],
-  // },
+  },
+  {
+    name: "Sıcak İçecekler",
+    type: "drink",
+    background_color: "#5b733a",
+    color: "#ECF39E",
+    items: [
+      {
+        name: "Çay",
+        price: "30₺",
+      },
+    ],
+  },
 ];
 const sauces: Sauce[] = [
   {
