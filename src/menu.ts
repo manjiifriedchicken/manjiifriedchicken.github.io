@@ -39,6 +39,7 @@ const menu: MenuCategory[] = [
     type: "food",
     background_color: "#132A13",
     color: "#ECF39E",
+    image: "/items/ai/tavuk-burgerler.png",
     items: [
       {
         name: "Tokio Burger",
