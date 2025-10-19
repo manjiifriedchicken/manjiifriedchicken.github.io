@@ -12,7 +12,7 @@ const Layout = () => {
   return (
     <div className={classes.layout}>
       <header className={classes.header}>
-        <Link to="/" className={classes.headerBack} style={{visibility: location.pathname === "/" ? "hidden" : "visible"}}>
+        <Link to="/" className={classes.headerBack} style={{visibility: location.pathname === "/" ? "hidden" : "visible", opacity: location.pathname === "/" ? 0 : 1}}>
           <ChevronLeft color="black" />
         </Link>
         <Link to="/" className={classes.headerLogo}><h1>Manjii Fried Chicken</h1></Link>
