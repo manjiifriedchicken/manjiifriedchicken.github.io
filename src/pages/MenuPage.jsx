@@ -1,19 +1,22 @@
-import { useLoaderData, useLocation } from "react-router-dom";
-
+import { useLoaderData } from "react-router-dom";
+import classes from "./MenuPage.module.scss";
+import MenuItem from "../components/UI/MenuItem.jsx";
 const MenuPage = () => {
-  const location = useLocation();
   const menuPage = useLoaderData();
-  return ( <div>
-    <h1>{menuPage.name}</h1>
-    <p>{menuPage.description}</p>
-    <img src={menuPage.image} alt={menuPage.name} />
-    <div>
-      {menuPage.items.map((item) => (
-        <div key={item.name}>{item.name}</div>
-      ))}
+  return (
+    <div className={classes.menuPage}>
+      <h2 className={classes.menuPageTitle}>{menuPage.name}</h2>
+      <div
+        className={`${classes.menuPageItems} ${
+          menuPage.type === "food" ? classes.food : classes.drink
+        }`}
+      >
+        {menuPage.items.map((item, index) => (
+          <MenuItem key={index} item={item} type={menuPage.type} />
+        ))}
+      </div>
     </div>
-    {location.pathname}
-  </div> );
-}
- 
+  );
+};
+
 export default MenuPage;

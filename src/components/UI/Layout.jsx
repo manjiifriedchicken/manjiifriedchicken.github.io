@@ -9,9 +9,9 @@ const Layout = () => {
     <div className={classes.layout}>
       <header className={classes.header}>
         <Link to="/" className={classes.headerBack} style={{visibility: location.pathname === "/" ? "hidden" : "visible"}}>
-          <ChevronLeft />
+          <ChevronLeft color="black" />
         </Link>
-        <p>Manjii Fried Chicken</p>
+        <Link to="/" className={classes.headerLogo}><h1>Manjii Fried Chicken</h1></Link>
       </header>
       <div className={classes.content}>
         <Outlet />

@@ -1,0 +1,42 @@
+.menuPageItem{
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  img{
+    width: 100%;
+    height: auto;
+    &.drink{
+      aspect-ratio: 1/1;
+    }
+    &.food{
+      aspect-ratio: 1.66666666;
+    }
+  }
+}
+.menuPageItemContent{
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  .menuPageItemTitle{
+    font-size: 20px;
+    font-weight: 600;
+  }
+  .menuPageItemDescription{
+    font-size: 16px;
+  }
+  .menuPageItemPrice{
+    font-size: 18px;
+    font-weight: 600;
+  }
+}
+.menuItemImageContainer{
+  position: relative;
+}
+.menuPageAdditionalInfo{
+  padding: 8px;
+  background-color: #f0f0f0;
+  border-radius: 8px;
+  font-size: 14px;
+  font-weight: 600;
+  color: black;
+}
