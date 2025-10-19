@@ -3,12 +3,12 @@ import ReactDOM from "react-dom/client";
 import Index from "./pages/Index.jsx";
 import ReactGA from "react-ga4";
 import Hotjar from '@hotjar/browser';
+import MenuPage from "./components/MenuPage.jsx";
 import "./main.scss";
+import { menu } from "./menu.ts";
 import {
   createBrowserRouter,
-  createRoutesFromElements,
   RouterProvider,
-  Route,
 } from "react-router-dom";
 
 
@@ -19,9 +19,28 @@ Hotjar.init(siteId, hotjarVersion);
 ReactGA.initialize("G-6Z1ZX2KNHS");
 ReactGA.send({ hitType: "pageview", page: window.location.pathname, title: "Manjii" });
 
+function getMenuPage(slug){
+  const menuPage = menu.find((item) => item.slug === slug);
+  if(!menuPage){
+    throw new Error("Menu page not found");
+  }
+  return menuPage;
+}
+
 const router = createBrowserRouter(
-  createRoutesFromElements(<Route path="/" element={<Index />}></Route>),
-  { basename: "/" }
+  [
+    {
+      path: "/:slug",
+      element: <MenuPage />,
+      loader: ({params}) =>{
+        return getMenuPage(params.slug);
+      }
+    },
+    {
+      path: "/",
+      element: <Index />
+    }
+  ]
 );
 
 ReactDOM.createRoot(document.getElementById("root")).render(

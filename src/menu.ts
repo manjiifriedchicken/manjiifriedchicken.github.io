@@ -17,6 +17,8 @@ interface MenuItemWithoutVariant {
 }
 interface MenuCategory {
   name: string;
+  slug: string;
+  image?: string;
   type: "food" | "drink";
   background_color: string;
   color: string;
@@ -32,6 +34,7 @@ interface Sauce {
 const menu: MenuCategory[] = [
   {
     name: "Tavuk Burgerler",
+    slug: "tavuk-burgerler",
     type: "food",
     background_color: "#132A13",
     color: "#ECF39E",
@@ -82,6 +85,7 @@ const menu: MenuCategory[] = [
   },
   {
     name: "Köfte Burgerler",
+    slug: "kofte-burgerler",
     type: "food",
     background_color: "#1a3217",
     color: "#ECF39E",
@@ -172,6 +176,7 @@ const menu: MenuCategory[] = [
   },
   {
     name: "Burritolar / Wrapler",
+    slug: "burritolar-wrapler",
     type: "food",
     background_color: "#21391c",
     color: "#ECF39E",
@@ -222,6 +227,7 @@ const menu: MenuCategory[] = [
   },
   {
     name: "Tavuk Atıştırmalıkları",
+    slug: "tavuk-atistirmaliklar",
     type: "food",
     background_color: "#284120",
     color: "#ECF39E",
@@ -291,6 +297,7 @@ const menu: MenuCategory[] = [
   },
   {
     name: "Patates Kızartmaları",
+    slug: "patates-kizartmalari",
     type: "food",
     background_color: "#2f4924",
     color: "#ECF39E",
@@ -313,6 +320,7 @@ const menu: MenuCategory[] = [
   },
   {
     name: "Bowl",
+    slug: "bowl",
     type: "food",
     background_color: "#375229",
     color: "#ECF39E",
@@ -331,6 +339,7 @@ const menu: MenuCategory[] = [
   },
   {
     name: "Salatalar",
+    slug: "salatalar",
     type: "food",
     background_color: "#405a2d",
     color: "#ECF39E",
@@ -349,6 +358,7 @@ const menu: MenuCategory[] = [
   },
   {
     name: "Kahveler",
+    slug: "kahveler",
     type: "drink",
     background_color: "#496231",
     color: "#ECF39E",
@@ -424,6 +434,7 @@ const menu: MenuCategory[] = [
   },
   {
     name: "Soğuk İçecekler",
+    slug: "soguk-icecekler",
     type: "drink",
     background_color: "#526b36",
     color: "#ECF39E",
@@ -460,6 +471,7 @@ const menu: MenuCategory[] = [
   },
   {
     name: "Sıcak İçecekler",
+    slug: "sicak-icecekler",
     type: "drink",
     background_color: "#5b733a",
     color: "#ECF39E",
