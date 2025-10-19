@@ -1,25 +1,32 @@
 .menuButton {
   display: flex;
   flex-direction: column;
-  gap: 8px;
-  padding: 8px;
-  border-radius: 4px;
-  background-color: white;
+  border-radius: 6px;
+  background-color: #ff9017;
   text-align: center;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
   text-decoration: none;
   width: auto;
+  position: relative;
   height: auto;
+  aspect-ratio: 1/1;
   img {
     width: 100%;
     height: auto;
-    aspect-ratio: 1/1;
     object-fit: cover;
+    padding: 8px;
+    border-radius: 6px 6px 0 0;
   }
   p {
-    color: black;
+    position: absolute;
+    bottom: 0;
+    color: white;
     font-size: 16px;
     font-weight: 600;
+    width: 100%;
+    background-color: rgba(0,0,0,0.2);
+    padding: 8px;
+    border-radius: 0 0 6px 6px;
   }
 }

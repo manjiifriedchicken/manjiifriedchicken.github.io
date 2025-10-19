@@ -1,16 +1,16 @@
 .layout {
   width: 100%;
   min-height: 100vh;
-  background-color: burlywood;
+  background-color: white;
   position: relative;
 }
 .header{ 
   display: flex;
   justify-content: center;
   align-items: center;
+  background-color: white;
   padding: 16px;
-  border-bottom: 1px solid #e0e0e0;
-  background-color: #f0f0f0;
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.5);
   position: sticky;
   top: 0;
   width: 100%;

@@ -15,10 +15,10 @@ const MenuItem = ({ item, type }) => {
   }, [item]);
 
   return (
-    <div className={classes.menuPageItem}>
+    <div className={`${classes.menuPageItem} ${type === "food" ? classes.food : classes.drink}`} >
       <div className={classes.menuItemImageContainer}>
         <img
-          src={item.image || "/public/items/1.JPG"}
+          src={item.image || "/public/items/8-1.png"}
           alt={item.name}
           className={`${classes.menuPageItemImage} ${
             type === "drink" ? classes.drink : classes.food

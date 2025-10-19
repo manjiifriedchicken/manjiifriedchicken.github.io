@@ -1,6 +1,7 @@
 import { useLoaderData } from "react-router-dom";
 import classes from "./MenuPage.module.scss";
 import MenuItem from "../components/UI/MenuItem.jsx";
+import { InfoIcon } from "lucide-react";
 const MenuPage = () => {
   const menuPage = useLoaderData();
   return (
@@ -15,6 +16,7 @@ const MenuPage = () => {
           <MenuItem key={index} item={item} type={menuPage.type} />
         ))}
       </div>
+      {menuPage.description && <p className={classes.menuPageDescription}><InfoIcon/>{menuPage.description}</p>}
     </div>
   );
 };

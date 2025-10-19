@@ -22,6 +22,7 @@ interface MenuCategory {
   type: "food" | "drink";
   background_color: string;
   color: string;
+  description?: string;
   items: (MenuItemWithVariant | MenuItemWithoutVariant)[];
 }
 
@@ -362,6 +363,7 @@ const menu: MenuCategory[] = [
     type: "drink",
     background_color: "#496231",
     color: "#ECF39E",
+    description: "Double Shot Espresso ve Soğuk Kahvelerde 20₺ ek ücret alınır.",
     items: [
       {
         name: "Flat White",
@@ -423,12 +425,6 @@ const menu: MenuCategory[] = [
       {
         name: "Americano",
         price: "120₺",
-      },
-      {
-        name: "",
-        price: "",
-        description:
-          "Double Shot Espresso ve Soğuk Kahvelerde 20₺ ek ücret alınır.",
       },
     ],
   },

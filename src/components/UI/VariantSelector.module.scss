@@ -2,20 +2,20 @@
   display: flex;
   position: absolute;
   bottom: 12px;
-  left: 8px;
+  left: -2px;
   gap: 4px;
 }
 .variant{
-  border: 1px solid black;
+  border: 1px solid #ff9017;
   border-radius: 999999px;
   padding: 8px;
   font-size: 12px;
   font-weight: 600;
-  color: black;
+  color: #ff9017;
   cursor: pointer;
   &.selected{
-    background-color: black;
+    background-color: #ff9017;
     color: white;
-    border-color: black;
+    border-color: #ff9017;
   }
 }

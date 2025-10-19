@@ -5,7 +5,7 @@ import PropTypes from "prop-types";
 const MenuButton = ({item}) => {
   return ( 
     <Link to={`/${item.slug}`} className={classes.menuButton}>
-      <img src={item.image || item.items[0]?.image || "https://picsum.photos/200"} alt={item.name} />
+      <img src={item.image || item.items[0]?.image || "/public/items/8-1.png"} alt={item.name} />
       <p>{item.name}</p>
     </Link>
   );
