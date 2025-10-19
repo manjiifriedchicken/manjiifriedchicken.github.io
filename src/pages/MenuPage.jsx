@@ -1,6 +1,7 @@
-import { useLoaderData } from "react-router-dom";
+import { useLoaderData, useLocation } from "react-router-dom";
 
 const MenuPage = () => {
+  const location = useLocation();
   const menuPage = useLoaderData();
   return ( <div>
     <h1>{menuPage.name}</h1>
@@ -11,6 +12,7 @@ const MenuPage = () => {
         <div key={item.name}>{item.name}</div>
       ))}
     </div>
+    {location.pathname}
   </div> );
 }
  
