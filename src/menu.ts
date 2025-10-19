@@ -347,27 +347,6 @@ const menu: MenuCategory[] = [
     ],
   },
   {
-    name: "Salatalar",
-    slug: "salatalar",
-    type: "food",
-    background_color: "#405a2d",
-    color: "#ECF39E",
-    items: [
-      {
-        name: "M.F.C. Salata",
-        description:
-          "Akdeniz yeşillikleri, domates, salatalık, zeytin, mısır, mevsim meyvesi, M.F.C. tavuk, Manjii sos.",
-        price: "270₺",
-      },
-      {
-        name: "Izgara Salata",
-        description:
-          "Akdeniz yeşillikleri, domates, salatalık, zeytin, mısır, mevsim meyvesi, ızgara tavuk, Manjii sos.",
-        price: "270₺",
-      },
-    ],
-  },
-  {
     name: "Kahveler",
     slug: "kahveler",
     type: "drink",
