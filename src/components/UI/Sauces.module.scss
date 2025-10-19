@@ -1,9 +1,9 @@
 .sauceContainer {
   position: fixed;
   z-index: 3000;
-  top: 48px;
+  bottom: 0px;
   right: 0;
-  padding: 16px;
+  padding: 8px;
   display: flex;
   .sauceOpener {
     background: #c64e1c;

@@ -46,10 +46,6 @@ const menu: MenuCategory[] = [
           "Artisan burger ekmeği, kızarmış M.F.C tavuk, Tokyo sos, cheddar peyniri, alman turşu, colslaw salata, patates kızartması.",
         variants: [
           {
-            name: "Sandwich",
-            price: "290₺",
-          },
-          {
             name: "Tokio X",
             description: "Sandwich + İçecek + 2 Soğan Halkası + 2 Tenders",
             price: "320₺",
@@ -59,6 +55,10 @@ const menu: MenuCategory[] = [
             description: "Sandwich + İçecek + 1 Kanat + 1 Tenders",
             price: "320₺",
           },
+          {
+            name: "Sandwich",
+            price: "290₺",
+          },
         ],
       },
       {
@@ -66,10 +66,6 @@ const menu: MenuCategory[] = [
         description:
           "Artisan burger ekmeği, kızarmış M.F.C tavuk, Algarienne sos, White Sos, dana macar salam, marul, soğan, patates kızartması.",
         variants: [
-          {
-            name: "Sandwich",
-            price: "300₺",
-          },
           {
             name: "London X",
             description: "Sandwich + İçecek + 2 Soğan Halkası + 2 Tenders",
@@ -79,6 +75,10 @@ const menu: MenuCategory[] = [
             name: "London XL",
             description: "Sandwich + İçecek + 1 Kanat + 1 Tenders",
             price: "330₺",
+          },
+          {
+            name: "Sandwich",
+            price: "300₺",
           },
         ],
       },
@@ -184,47 +184,50 @@ const menu: MenuCategory[] = [
     items: [
       {
         name: "Izgara Tavuk Burrito",
-        description: "Izgara tavuk, çift lavaş, algerienne sos, ranch sos, patates, domates, marul, soğan.",
+        description:
+          "Izgara tavuk, çift lavaş, algerienne sos, ranch sos, patates, domates, marul, soğan.",
         variants: [
           {
             name: "Burrito",
-            price: "200₺"
+            price: "200₺",
           },
           {
             name: "Burrito + İçecek",
-            price: "220₺"
-          }
-        ]
+            price: "220₺",
+          },
+        ],
       },
       {
         name: "M.F.C. Burrito",
-        description: "Kızarmış M.F.C tavuk, çift lavaş, algerienne sos, ranch sos, ranch sos, patates, domates, marul, soğan.",
+        description:
+          "Kızarmış M.F.C tavuk, çift lavaş, algerienne sos, ranch sos, ranch sos, patates, domates, marul, soğan.",
         variants: [
           {
             name: "Burrito",
-            price: "250₺"
+            price: "250₺",
           },
           {
             name: "Burrito + İçecek",
-            price: "270₺"
-          }
-        ]
+            price: "270₺",
+          },
+        ],
       },
       {
         name: "Dinamit M.F.C. Burrito 🌶️🌶️",
-        description: "Kızarmış M.F.C tavuk, çift lavaş, dinamit sos, ranch sos, patates, domates, marul.",
+        description:
+          "Kızarmış M.F.C tavuk, çift lavaş, dinamit sos, ranch sos, patates, domates, marul.",
         variants: [
           {
             name: "Burrito",
-            price: "250₺"
+            price: "250₺",
           },
           {
             name: "Burrito + İçecek",
-            price: "270₺"
-          }
-        ]
+            price: "270₺",
+          },
+        ],
       },
-    ]
+    ],
   },
   {
     name: "Tavuk Atıştırmalıkları",
@@ -309,12 +312,14 @@ const menu: MenuCategory[] = [
       },
       {
         name: "Cheddar Bomb Fries",
-        description: "Patates Kızartması, M.F.C. tavuk parçaları, bol cheddar sos, taze soğan, salatalık turşusu.",
+        description:
+          "Patates Kızartması, M.F.C. tavuk parçaları, bol cheddar sos, taze soğan, salatalık turşusu.",
         price: "270₺",
       },
       {
         name: "Hot Bomb Fries",
-        description: "Patates Kızartması, M.F.C. tavuk parçaları, jalepeno biber, cheddar peyniri, taze soğan, salatalık turşusu, buffalo, algerienne ve ranch sos.",
+        description:
+          "Patates Kızartması, M.F.C. tavuk parçaları, jalepeno biber, cheddar peyniri, taze soğan, salatalık turşusu, buffalo, algerienne ve ranch sos.",
         price: "250₺",
       },
     ],
@@ -328,12 +333,14 @@ const menu: MenuCategory[] = [
     items: [
       {
         name: "Big Bowl",
-        description: "Patates kızartması, coleslaw salata, 130gr köfte, 3 adet tenders, 2 adet soğan halkası, füme kaburga dilimleri, iki çeşit sos.",
+        description:
+          "Patates kızartması, coleslaw salata, 130gr köfte, 3 adet tenders, 2 adet soğan halkası, füme kaburga dilimleri, iki çeşit sos.",
         price: "420₺",
       },
       {
         name: "Chicken Bowl",
-        description: "Patates kızartması, coleslaw salata, 2 adet tenders, 2 adet soğan halkası, iki çeşit sos.",
+        description:
+          "Patates kızartması, coleslaw salata, 2 adet tenders, 2 adet soğan halkası, iki çeşit sos.",
         price: "420₺",
       },
     ],
@@ -347,12 +354,14 @@ const menu: MenuCategory[] = [
     items: [
       {
         name: "M.F.C. Salata",
-        description: "Akdeniz yeşillikleri, domates, salatalık, zeytin, mısır, mevsim meyvesi, M.F.C. tavuk, Manjii sos.",
+        description:
+          "Akdeniz yeşillikleri, domates, salatalık, zeytin, mısır, mevsim meyvesi, M.F.C. tavuk, Manjii sos.",
         price: "270₺",
       },
       {
         name: "Izgara Salata",
-        description: "Akdeniz yeşillikleri, domates, salatalık, zeytin, mısır, mevsim meyvesi, ızgara tavuk, Manjii sos.",
+        description:
+          "Akdeniz yeşillikleri, domates, salatalık, zeytin, mısır, mevsim meyvesi, ızgara tavuk, Manjii sos.",
         price: "270₺",
       },
     ],
@@ -363,7 +372,8 @@ const menu: MenuCategory[] = [
     type: "drink",
     background_color: "#496231",
     color: "#ECF39E",
-    description: "Double Shot Espresso ve Soğuk Kahvelerde 20₺ ek ücret alınır.",
+    description:
+      "Double Shot Espresso ve Soğuk Kahvelerde 20₺ ek ücret alınır.",
     items: [
       {
         name: "Flat White",
@@ -531,4 +541,10 @@ const sauces: Sauce[] = [
 ];
 
 export { sauces, menu };
-export type { MenuCategory, Sauce, MenuItemWithVariant, MenuItemWithoutVariant, MenuItemVariant };
+export type {
+  MenuCategory,
+  Sauce,
+  MenuItemWithVariant,
+  MenuItemWithoutVariant,
+  MenuItemVariant,
+};

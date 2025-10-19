@@ -26,7 +26,7 @@ const Sauces = (props) => {
         }}
         style={{
           position: "fixed",
-          top: "144px",
+          bottom: "80px",
           right: "16px",
           background: "#C64E1C",
           color: "white",

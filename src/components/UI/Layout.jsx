@@ -3,8 +3,12 @@ import classes from "./Layout.module.scss";
 import { ChevronLeft } from "lucide-react";
 import { sauces } from "../../menu.ts";
 import Sauces from "./Sauces.jsx";
+import { useEffect } from "react";
 const Layout = () => {
   const location = useLocation();
+  useEffect(()=>{
+    window.scrollTo(0, 0);
+  }, [location.pathname]);
   return (
     <div className={classes.layout}>
       <header className={classes.header}>

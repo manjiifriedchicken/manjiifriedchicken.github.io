@@ -39,7 +39,7 @@ const MenuItem = ({ item, type }) => {
         <p className={classes.menuPageItemDescription}>
           {item.description || ""}
         </p>
-        {item.variants?.length > 0 && selectedVariant?.name != item.variants[0].name ? (
+        {item.variants?.length > 0 && selectedVariant?.name != "Sandwich" ? (
             <p className={classes.menuPageAdditionalInfo}>
               {selectedVariant?.description || ""}
             </p>
