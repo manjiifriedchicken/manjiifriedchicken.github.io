@@ -18,7 +18,7 @@ const MenuItem = ({ item, type }) => {
     <div className={classes.menuPageItem}>
       <div className={classes.menuItemImageContainer}>
         <img
-          src={item.image || "https://picsum.photos/200"}
+          src={item.image || "/public/items/1.JPG"}
           alt={item.name}
           className={`${classes.menuPageItemImage} ${
             type === "drink" ? classes.drink : classes.food

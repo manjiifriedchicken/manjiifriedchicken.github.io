@@ -6,17 +6,13 @@
   gap: 4px;
 }
 .variant{
-  border: 1px solid #e0e0e0;
+  border: 1px solid black;
   border-radius: 999999px;
   padding: 8px;
-  background-color: white;
   font-size: 12px;
   font-weight: 600;
   color: black;
   cursor: pointer;
-  &:hover{
-    background-color: #f0f0f0;
-  }
   &.selected{
     background-color: black;
     color: white;
