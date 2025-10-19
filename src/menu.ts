@@ -535,3 +535,4 @@ const sauces: Sauce[] = [
 ];
 
 export { sauces, menu };
+export type { MenuCategory, Sauce, MenuItemWithVariant, MenuItemWithoutVariant, MenuItemVariant };
