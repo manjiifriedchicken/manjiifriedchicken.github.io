@@ -1,8 +1,6 @@
 import { Outlet, useLocation, Link } from "react-router-dom";
 import classes from "./Layout.module.scss";
 import { ChevronLeft } from "lucide-react";
-import { sauces } from "../../menu.ts";
-import Sauces from "./Sauces.jsx";
 import { useEffect } from "react";
 const Layout = () => {
   const location = useLocation();
@@ -20,8 +18,6 @@ const Layout = () => {
       <div className={classes.content}>
         <Outlet />
       </div>
-      <Sauces sauces={sauces} />
-
     </div>
   );
 };

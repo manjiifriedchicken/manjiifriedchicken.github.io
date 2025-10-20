@@ -39,12 +39,13 @@ const menu: MenuCategory[] = [
     type: "food",
     background_color: "#132A13",
     color: "#ECF39E",
-    image: "/items/ai/tavuk-burgerler.png",
+    image: "/covers/tavuk-burgerler.png",
     items: [
       {
         name: "Tokio Burger",
         description:
           "Artisan burger ekmeği, kızarmış M.F.C tavuk, Tokyo sos, cheddar peyniri, alman turşu, colslaw salata, patates kızartması.",
+        image: "/items/tokio.png",
         variants: [
           {
             name: "Tokio X",
@@ -64,6 +65,7 @@ const menu: MenuCategory[] = [
       },
       {
         name: "London Burger",
+        image: "/items/london.png",
         description:
           "Artisan burger ekmeği, kızarmış M.F.C tavuk, Algarienne sos, White Sos, dana macar salam, marul, soğan, patates kızartması.",
         variants: [
@@ -83,11 +85,33 @@ const menu: MenuCategory[] = [
           },
         ],
       },
+      {
+        name: "Atina Burger",
+        description:
+          "Artisan burger ekmeği, kızarmış M.F.C tavuk, Manjii Cream Sos(çörek otlu peynir kreması), vişne marmelatı, roka.",
+        variants: [
+          {
+            name: "Atina X",
+            description: "Sandwich + İçecek + 2 Soğan Halkası + 2 Tenders",
+            price: "340₺",
+          },
+          {
+            name: "Atina XL",
+            description: "Sandwich + İçecek + 1 Kanat + 1 Tenders",
+            price: "340₺",
+          },
+          {
+            name: "Sandwich",
+            price: "310₺",
+          },
+        ],
+      },
     ],
   },
   {
     name: "Köfte Burgerler",
     slug: "kofte-burgerler",
+    image: "/covers/et-burgerler.png",
     type: "food",
     background_color: "#1a3217",
     color: "#ECF39E",
@@ -96,6 +120,7 @@ const menu: MenuCategory[] = [
         name: "Manjinal Burger",
         description:
           "Artisan burger ekmeği, 130gr dana kaburga köftesi, cheddar peyniri, aioli sos, soğan, domates, iceberg, ankara çubuk.",
+        image: '/items/manjinal.png',
         variants: [
           {
             name: "Sandwich",
@@ -110,6 +135,7 @@ const menu: MenuCategory[] = [
       },
       {
         name: "Algerienne Burger 🌶️",
+        image: '/items/algerienne.png',
         description:
           "Artisan burger ekmeği, 130gr dana kaburga köftesi, cheddar peyniri, algerienne sos, fıstıklı macar salam, ankara çubuk.",
 
@@ -127,6 +153,7 @@ const menu: MenuCategory[] = [
       },
       {
         name: "Eggyshaggy Burger",
+        image: '/items/eggyshaggy.png',
         description:
           "Artisan burger ekmeği, 130gr dana kaburga köftesi, sunny side up yumurta, cheddar peyniri, chips master, white sos, ankara çubuk.",
 
@@ -160,6 +187,7 @@ const menu: MenuCategory[] = [
       },
       {
         name: "Relish Burger",
+        image: "/items/relish.png",
         description:
           "Artisan burger ekmeği, 130gr dana kaburga köftesi, cheddar peyniri, homemade relish sos, marul, soğan, domates, ankara çubuk.",
         variants: [
@@ -174,10 +202,41 @@ const menu: MenuCategory[] = [
           },
         ],
       },
+      {
+        name: "Tiftik Burger",
+        description: "Artisan burger ekmeği, 130gr dana kaburga köftesi, taze baharatlarla pişirilmiş tiftik kaburga, cheddar peyniri, trüf mantarlı mayonez, tütsülü BBQ sos, ankara çubuk.",
+        variants: [
+          {
+            name: "Sandwich",
+            price: "420₺"
+          },
+          {
+            name: "Sandwich + İçecek",
+            description: "Sandwich + İçecek",
+            price: "450₺"
+          }
+        ]
+      },
+      {
+        name: "RedSin Burger",
+        description: "Artisan burger ekmeği, 130gr dana kaburga köftesi, Manjii Cream Sos(çörek otlu peynir kreması), vişne marmelatı, roka.",
+        variants: [
+          {
+            name: "Sandwich",
+            price: "370₺"
+          },
+          {
+            name: "Sandwich + İçecek",
+            description: "Sandwich + İçecek",
+            price: "400₺"
+          }
+        ]
+      }
     ],
   },
   {
     name: "Burritolar / Wrapler",
+    image: "/covers/buritto.png",
     slug: "burritolar-wrapler",
     type: "food",
     background_color: "#21391c",
@@ -232,6 +291,7 @@ const menu: MenuCategory[] = [
   },
   {
     name: "Tavuk Atıştırmalıkları",
+    image: "/covers/kizartma.png",
     slug: "tavuk-atistirmaliklar",
     type: "food",
     background_color: "#284120",
@@ -239,6 +299,7 @@ const menu: MenuCategory[] = [
     items: [
       {
         name: "Chicken Tenders",
+        image: "/items/tenders.png",
         description: "Klasik chicken tenders, patates kızartması, sos",
         variants: [
           {
@@ -257,6 +318,7 @@ const menu: MenuCategory[] = [
       },
       {
         name: "Klasik Kanat",
+        image: "/items/wings.png",
         description: "Klasik tavuk kanadı, patates kızartması, sos",
         variants: [
           {
@@ -289,7 +351,6 @@ const menu: MenuCategory[] = [
         variants: [
           {
             name: "6'lı Dinamit Kanat",
-
             price: "260₺",
           },
           {
@@ -302,6 +363,7 @@ const menu: MenuCategory[] = [
   },
   {
     name: "Patates Kızartmaları",
+    image: "/covers/patates.png",
     slug: "patates-kizartmalari",
     type: "food",
     background_color: "#2f4924",
@@ -327,6 +389,7 @@ const menu: MenuCategory[] = [
   },
   {
     name: "Bowl",
+    image: "/covers/bowl.png",
     slug: "bowl",
     type: "food",
     background_color: "#375229",
@@ -348,6 +411,7 @@ const menu: MenuCategory[] = [
   },
   {
     name: "Kahveler",
+    image: "/covers/kahveler.png",
     slug: "kahveler",
     type: "drink",
     background_color: "#496231",
@@ -420,6 +484,7 @@ const menu: MenuCategory[] = [
   },
   {
     name: "Soğuk İçecekler",
+    image: "/covers/soguk-icecek.png",
     slug: "soguk-icecekler",
     type: "drink",
     background_color: "#526b36",
@@ -456,17 +521,61 @@ const menu: MenuCategory[] = [
     ],
   },
   {
-    name: "Sıcak İçecekler",
-    slug: "sicak-icecekler",
+    name: "Soslar",
+    slug: "soslar",
     type: "drink",
     background_color: "#5b733a",
     color: "#ECF39E",
     items: [
       {
-        name: "Çay",
-        price: "30₺",
+        name: "Tokio Sos",
+        price: "18₺",
       },
-    ],
+      {
+        name: "Algerienne Sos 🌶️",
+        price: "18₺",
+      },
+      {
+        name: "Samurai Sos 🌶️",
+        price: "18₺",
+      },
+      {
+        name: "Richie Sos",
+        price: "18₺",
+      },
+      {
+        name: "Dynamite Sos 🌶️🌶️",
+        price: "18₺",
+      },
+      {
+        name: "White Sos",
+        price: "18₺",
+      },
+      {
+        name: "Aioli Sos",
+        price: "18₺",
+      },
+      {
+        name: "Sweet Chili Sos 🌶️",
+        price: "12₺",
+      },
+      {
+        name: "BBQ Sos",
+        price: "12₺",
+      },
+      {
+        name: "Buffalo Sos 🌶️",
+        price: "12₺",
+      },
+      {
+        name: "Peri Peri Sos 🌶️",
+        price: "12₺",
+      },
+      {
+        name: "Relish Sos",
+        price: "12₺",
+      },
+    ]
   },
 ];
 const sauces: Sauce[] = [

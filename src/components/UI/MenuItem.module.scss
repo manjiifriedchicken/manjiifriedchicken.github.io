@@ -7,6 +7,7 @@
   background-color: white;
   box-shadow: 0 0 10px 0 rgba(0,0,0,0.2);
   border-radius: 8px;
+  max-width: 100%;
   img{
     width: 100%;
     height: auto;
@@ -26,12 +27,14 @@
   gap: 8px;
   height: 100%;
   justify-content: space-between;
+  width: 100%;
   .menuPageItemTitle{
     font-size: 20px;
     font-weight: 600;
   }
   .menuPageItemDescription{
     font-size: 16px;
+    width: 100%;
   }
   .menuPageItemPrice{
     font-size: 18px;
@@ -48,6 +51,7 @@
   border-radius: 8px;
   font-size: 14px;
   font-weight: 600;
-  width: max-content;
+  width: auto;
+  max-width: max-content;
   color: black;
 }
