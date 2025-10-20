@@ -1,0 +1,41 @@
+.layout {
+  width: 100%;
+  min-height: 100vh;
+  background-color: white;
+  position: relative;
+}
+.header{ 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  padding: 16px;
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.5);
+  position: sticky;
+  top: 0;
+  width: 100%;
+  z-index: 1000;
+}
+.headerLogo{
+  text-decoration: none;
+  color: black;
+  font-size: 24px;
+  font-weight: 600;
+  font-family: "Manji";
+  h1{
+    font-size: 24px;
+    font-weight: 600;
+    font-family: "Manji";
+  }
+}
+.headerBack{
+  position: absolute;
+  left: 12px;
+  height: 24px;
+  top: 50%;
+  transform: translateY(-50%);
+  transition: all 0.2s ease-in-out;
+}
+.content{ 
+  padding: 16px;
+}

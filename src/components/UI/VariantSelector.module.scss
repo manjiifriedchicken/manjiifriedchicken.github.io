@@ -1,20 +1,21 @@
-.card__item__variant {
+.variantSelector{
   display: flex;
-  gap: 16px;
-  justify-content: center;
-  align-items: center;
-  .card__item__variant__item {
-    font-size: 14px;
-    flex: 1 1;
-    flex-shrink: 0;
-    width: auto;
-    height: 40px;
-    border: 1px solid black;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border-radius: 6px;
-    text-align: center;
-    padding: 4px;
+  position: absolute;
+  bottom: 12px;
+  left: -2px;
+  gap: 4px;
+}
+.variant{
+  border: 1px solid #ff9017;
+  border-radius: 999999px;
+  padding: 8px;
+  font-size: 12px;
+  font-weight: 600;
+  color: #ff9017;
+  cursor: pointer;
+  &.selected{
+    background-color: #ff9017;
+    color: white;
+    border-color: #ff9017;
   }
 }

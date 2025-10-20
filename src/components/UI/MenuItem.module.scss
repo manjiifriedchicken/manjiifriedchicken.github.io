@@ -1,45 +1,57 @@
-.card__item {
+.menuPageItem{
   display: flex;
   flex-direction: column;
-  gap: 16px;
-  justify-content: center;
-  align-items: start;
-  .card__item__image {
-    background: black;
+  justify-content: space-between;
+  gap: 8px;
+  padding: 16px;
+  background-color: white;
+  box-shadow: 0 0 10px 0 rgba(0,0,0,0.2);
+  border-radius: 8px;
+  max-width: 100%;
+  img{
     width: 100%;
-    border-radius: 18px;
-    img {
-      aspect-ratio: 21/9;
-      border-radius: 18px;
+    height: auto;
+    object-fit: contain;
+    &.drink{
+      aspect-ratio: 1/1;
+    }
+    &.food{
+      aspect-ratio: 1.66666666666;
+      margin-bottom: 32px; 
     }
   }
-  .card__item__header {
-    font-size: 1.25rem;
-    font-weight: 700;
-    text-align: left;
-    display: flex;
-    gap: 8px;
-    flex-direction: column;
-    .variantName {
-      font-size: 16px;
-    }
-    .card__item__price {
-      font-size: 16px;
-    }
+}
+.menuPageItemContent{
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  height: 100%;
+  justify-content: space-between;
+  width: 100%;
+  .menuPageItemTitle{
+    font-size: 20px;
+    font-weight: 600;
   }
-  .card__item__body {
-    font-size: 1rem;
-    display: flex;
-    flex-direction: column;
-    gap: 16px;
+  .menuPageItemDescription{
+    font-size: 16px;
     width: 100%;
-    .card__item__variant__description {
-      padding: 8px;
-      border-radius: 4px;
-      max-width: max-content;
-      margin: auto;
-      text-align: center;
-      font-size: 14px;
-    }
   }
+  .menuPageItemPrice{
+    font-size: 18px;
+    font-weight: 600;
+    color: #ff9017;
+  }
+}
+.menuItemImageContainer{
+  position: relative;
+}
+.menuPageAdditionalInfo{
+  padding: 8px;
+  background-color: #ff901744;
+  border-radius: 8px;
+  font-size: 14px;
+  font-weight: 600;
+  width: auto;
+  max-width: max-content;
+  color: black;
 }
