@@ -1,7 +1,9 @@
 .layout {
   width: 100%;
   min-height: 100vh;
-  background-color: white;
+  background: url("/davuk.jpg") repeat;
+  background-size: 100vw auto;
+
   position: relative;
 }
 .header{ 
