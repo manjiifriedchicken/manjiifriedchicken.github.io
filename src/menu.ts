@@ -88,7 +88,7 @@ const menu: MenuCategory[] = [
       {
         name: "Atina Burger",
         description:
-          "Artisan burger ekmeği, kızarmış M.F.C tavuk, Manjii Cream Sos(çörek otlu peynir kreması), vişne marmelatı, roka.",
+          "Artisan burger ekmeği, kızarmış M.F.C tavuk, Manjii Cream Sos(çörek otlu peynir kreması), tatlı soğan sosu, roka.",
         variants: [
           {
             name: "Atina X",
@@ -120,52 +120,52 @@ const menu: MenuCategory[] = [
         name: "Manjinal Burger",
         description:
           "Artisan burger ekmeği, 130gr dana kaburga köftesi, cheddar peyniri, aioli sos, soğan, domates, iceberg, ankara çubuk.",
-        image: '/items/manjinal.png',
+        image: "/items/manjinal.png",
         variants: [
-          {
-            name: "Sandwich",
-            price: "310₺",
-          },
           {
             name: "Sandwich + İçecek",
             description: "Sandwich + İçecek",
             price: "330₺",
+          },
+          {
+            name: "Sandwich",
+            price: "310₺",
           },
         ],
       },
       {
         name: "Algerienne Burger 🌶️",
-        image: '/items/algerienne.png',
+        image: "/items/algerienne.png",
         description:
           "Artisan burger ekmeği, 130gr dana kaburga köftesi, cheddar peyniri, algerienne sos, fıstıklı macar salam, ankara çubuk.",
 
         variants: [
           {
-            name: "Sandwich",
-            price: "330₺",
-          },
-          {
             name: "Sandwich + İçecek",
             description: "Sandwich + İçecek",
             price: "350₺",
+          },
+          {
+            name: "Sandwich",
+            price: "330₺",
           },
         ],
       },
       {
         name: "Eggyshaggy Burger",
-        image: '/items/eggyshaggy.png',
+        image: "/items/eggyshaggy.png",
         description:
           "Artisan burger ekmeği, 130gr dana kaburga köftesi, sunny side up yumurta, cheddar peyniri, chips master, white sos, ankara çubuk.",
 
         variants: [
           {
-            name: "Sandwich",
-            price: "330₺",
-          },
-          {
             name: "Sandwich + İçecek",
             description: "Sandwich + İçecek",
             price: "350₺",
+          },
+          {
+            name: "Sandwich",
+            price: "330₺",
           },
         ],
       },
@@ -175,13 +175,13 @@ const menu: MenuCategory[] = [
           "Artisan burger ekmeği, 130gr dana kaburga köftesi, karabiberli rosebeef, çift cheddar peyniri, tütsülenmiş mayonez, biber ezmesi, soğan, ankara çubuk.",
         variants: [
           {
-            name: "Sandwich",
-            price: "360₺",
-          },
-          {
             name: "Sandwich + İçecek",
             description: "Sandwich + İçecek",
             price: "380₺",
+          },
+          {
+            name: "Sandwich",
+            price: "360₺",
           },
         ],
       },
@@ -192,46 +192,48 @@ const menu: MenuCategory[] = [
           "Artisan burger ekmeği, 130gr dana kaburga köftesi, cheddar peyniri, homemade relish sos, marul, soğan, domates, ankara çubuk.",
         variants: [
           {
-            name: "Sandwich",
-            price: "330₺",
-          },
-          {
             name: "Sandwich + İçecek",
             description: "Sandwich + İçecek",
             price: "350₺",
+          },
+          {
+            name: "Sandwich",
+            price: "330₺",
           },
         ],
       },
       {
         name: "Tiftik Burger",
-        description: "Artisan burger ekmeği, 130gr dana kaburga köftesi, taze baharatlarla pişirilmiş tiftik kaburga, cheddar peyniri, trüf mantarlı mayonez, tütsülü BBQ sos, ankara çubuk.",
+        description:
+          "Artisan burger ekmeği, 130gr dana kaburga köftesi, taze baharatlarla pişirilmiş tiftik kaburga, cheddar peyniri, trüf mantarlı mayonez, tütsülü BBQ sos, ankara çubuk.",
         variants: [
-          {
-            name: "Sandwich",
-            price: "420₺"
-          },
           {
             name: "Sandwich + İçecek",
             description: "Sandwich + İçecek",
-            price: "450₺"
-          }
-        ]
+            price: "450₺",
+          },
+          {
+            name: "Sandwich",
+            price: "420₺",
+          },
+        ],
       },
       {
         name: "RedSin Burger",
-        description: "Artisan burger ekmeği, 130gr dana kaburga köftesi, Manjii Cream Sos(çörek otlu peynir kreması), vişne marmelatı, roka.",
+        description:
+          "Artisan burger ekmeği, 130gr dana kaburga köftesi, Manjii Cream Sos(çörek otlu peynir kreması), vişne marmelatı, roka.",
         variants: [
-          {
-            name: "Sandwich",
-            price: "370₺"
-          },
           {
             name: "Sandwich + İçecek",
             description: "Sandwich + İçecek",
-            price: "400₺"
-          }
-        ]
-      }
+            price: "400₺",
+          },
+          {
+            name: "Sandwich",
+            price: "370₺",
+          },
+        ],
+      },
     ],
   },
   {
@@ -575,7 +577,7 @@ const menu: MenuCategory[] = [
         name: "Relish Sos",
         price: "12₺",
       },
-    ]
+    ],
   },
 ];
 const sauces: Sauce[] = [
