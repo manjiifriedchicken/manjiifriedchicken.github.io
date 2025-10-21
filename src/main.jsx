@@ -6,7 +6,7 @@ import Hotjar from "@hotjar/browser";
 import MenuPage from "./pages/MenuPage.jsx";
 import "./main.scss";
 import { menu } from "./menu.ts";
-import { createBrowserRouter, RouterProvider } from "react-router-dom";
+import { createBrowserRouter, createHashRouter, RouterProvider } from "react-router-dom";
 import Layout from "./components/UI/Layout.jsx";
 
 const siteId = 3803867;
@@ -28,7 +28,7 @@ function getMenuPage(slug) {
   return menuPage;
 }
 
-const router = createBrowserRouter([
+const router = createHashRouter([
   {
     element: <Layout />,
     children: [
