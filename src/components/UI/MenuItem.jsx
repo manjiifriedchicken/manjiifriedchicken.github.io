@@ -2,7 +2,7 @@ import classes from "./MenuItem.module.scss";
 import PropTypes from "prop-types";
 import { useState, useEffect } from "react";
 import VariantSelector from "./VariantSelector";
-const MenuItem = ({ item, type }) => {
+const MenuItem = ({ item, type, isKofte }) => {
   const [selectedVariant, setSelectedVariant] = useState(null);
   useEffect(() => {
     if (item.variants?.length > 0) {
@@ -66,8 +66,11 @@ const MenuItem = ({ item, type }) => {
             {selectedVariant?.description || ""}
           </p>
         ) : null}
-        <div className={classes.menuPageItemPrice}>
-          {selectedVariant?.price || item.price || null}
+        <div className={classes.menuPageItemFooter}>
+          <p className={classes.menuPageItemPrice}>
+            {selectedVariant?.price || item.price || null}
+          </p>
+          {isKofte && <p className={classes.menuPriceItemKofte}>Lütfen etinizin pişme derecesini belirtiniz.</p>}
         </div>
       </div>
     </div>
@@ -76,6 +79,7 @@ const MenuItem = ({ item, type }) => {
 MenuItem.propTypes = {
   item: PropTypes.object.isRequired,
   type: PropTypes.string.isRequired,
+  isKofte: PropTypes.bool,
 };
 
 export default MenuItem;

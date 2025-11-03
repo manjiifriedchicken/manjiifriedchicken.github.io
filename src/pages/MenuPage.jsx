@@ -13,9 +13,7 @@ const MenuPage = () => {
         }`}
       >
         {menuPage.items.map((item, index) => (
-          <>
-            <MenuItem key={index} item={item} type={menuPage.type} />
-          </>
+            <MenuItem key={index} item={item} type={menuPage.type} isKofte={menuPage.name === "Köfte Burgerler"}/>
         ))}
       </div>
       {menuPage.description && <p className={classes.menuPageDescription}><InfoIcon/>{menuPage.description}</p>}
