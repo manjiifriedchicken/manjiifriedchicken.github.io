@@ -44,7 +44,7 @@ const menu: MenuCategory[] = [
       {
         name: "Tokio Burger",
         description:
-          "Artisan burger ekmeği, kızarmış M.F.C tavuk, Tokyo sos, cheddar peyniri, alman turşu, colslaw salata, patates kızartması.",
+          "Artisan burger ekmeği, kızarmış M.F.C tavuk, Tokyo sos, cheddar peyniri, alman turşu, coleslaw salata (Yeşil elmalı), patates kızartması.",
         image: "/items/tokio.png",
         variants: [
           {
@@ -409,13 +409,13 @@ const menu: MenuCategory[] = [
       {
         name: "Big Bowl",
         description:
-          "Patates kızartması, coleslaw salata, 130gr köfte, 3 adet tenders, 2 adet soğan halkası, füme kaburga dilimleri, iki çeşit sos.",
+          "Patates kızartması, coleslaw salata (Yeşil elmalı), 130gr köfte, 3 adet tenders, 2 adet soğan halkası, füme kaburga dilimleri, iki çeşit sos.",
         price: "420₺",
       },
       {
         name: "Chicken Bowl",
         description:
-          "Patates kızartması, coleslaw salata, 2 adet tenders, 2 adet soğan halkası, iki çeşit sos.",
+          "Patates kızartması, coleslaw salata (Yeşil elmalı), 2 adet tenders, 2 adet soğan halkası, iki çeşit sos.",
         price: "420₺",
       },
     ],
@@ -586,6 +586,44 @@ const menu: MenuCategory[] = [
       {
         name: "Relish Sos",
         price: "12₺",
+      },
+    ],
+  },
+  {
+    name: "Ekstralar",
+    slug: "ekstralar",
+    image: "/covers/ekstralar.png",
+    type: "drink",
+    background_color: "#5b733a",
+    color: "#ECF39E",
+    items: [
+      {
+        name: "Adet Salam",
+        price: "12₺",
+      },
+      {
+        name: "Adet Füme Kaburga",
+        price: "40₺",
+      },
+      {
+        name: "Adet Yumurta ",
+        price: "10₺",
+      },
+      {
+        name: "Adet Tenders",
+        price: "60₺",
+      },
+      {
+        name: "Adet Kanat",
+        price: "60₺",
+      },
+      {
+        name: "Ekstra Cheddar",
+        price: "25₺",
+      },
+      {
+        name: "Colelaw Salata (Yeşil Elmalı)",
+        price: "45₺",
       },
     ],
   },
