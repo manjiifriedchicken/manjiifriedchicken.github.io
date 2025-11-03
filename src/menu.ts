@@ -534,6 +534,7 @@ const menu: MenuCategory[] = [
   {
     name: "Soslar",
     slug: "soslar",
+    image: "/covers/soslar.png",
     type: "drink",
     background_color: "#5b733a",
     color: "#ECF39E",
