@@ -87,6 +87,7 @@ const menu: MenuCategory[] = [
       },
       {
         name: "Atina Burger",
+        image: "/items/atina.jpg",
         description:
           "Artisan burger ekmeği, kızarmış M.F.C tavuk, Manjii Cream Sos(çörek otlu peynir kreması), tatlı soğan sosu, roka.",
         variants: [
@@ -171,6 +172,7 @@ const menu: MenuCategory[] = [
       },
       {
         name: "Smoky Burger",
+        image: "/items/smoke.jpg",
         description:
           "Artisan burger ekmeği, 130gr dana kaburga köftesi, karabiberli rosebeef, çift cheddar peyniri, tütsülenmiş mayonez, biber ezmesi, soğan, ankara çubuk.",
         variants: [
@@ -204,6 +206,7 @@ const menu: MenuCategory[] = [
       },
       {
         name: "Tiftik Burger",
+        image: "/items/tiftik.jpg",
         description:
           "Artisan burger ekmeği, 130gr dana kaburga köftesi, taze baharatlarla pişirilmiş tiftik kaburga, cheddar peyniri, trüf mantarlı mayonez, tütsülü BBQ sos, ankara çubuk.",
         variants: [
@@ -220,6 +223,7 @@ const menu: MenuCategory[] = [
       },
       {
         name: "RedSin Burger",
+        image: "/items/redsin.jpg",
         description:
           "Artisan burger ekmeği, 130gr dana kaburga köftesi, Manjii Cream Sos(çörek otlu peynir kreması), vişne marmelatı, roka.",
         variants: [
@@ -246,6 +250,7 @@ const menu: MenuCategory[] = [
     items: [
       {
         name: "Izgara Tavuk Burrito",
+        image: "/items/buritto.jpg",
         description:
           "Izgara tavuk, çift lavaş, algerienne sos, ranch sos, patates, domates, marul, soğan.",
         variants: [
@@ -261,6 +266,7 @@ const menu: MenuCategory[] = [
       },
       {
         name: "M.F.C. Burrito",
+        image: "/items/buritto.jpg",
         description:
           "Kızarmış M.F.C tavuk, çift lavaş, algerienne sos, ranch sos, ranch sos, patates, domates, marul, soğan.",
         variants: [
@@ -276,6 +282,7 @@ const menu: MenuCategory[] = [
       },
       {
         name: "Dinamit M.F.C. Burrito 🌶️🌶️",
+        image: "/items/dinamit-buritto.jpg",
         description:
           "Kızarmış M.F.C tavuk, çift lavaş, dinamit sos, ranch sos, patates, domates, marul.",
         variants: [
@@ -335,6 +342,7 @@ const menu: MenuCategory[] = [
       },
       {
         name: "BBQ Kanat",
+        image: "/items/bbq-wings.jpg",
         description: "BBQ soslu tavuk kanadı, patates kızartması, sos",
         variants: [
           {
@@ -349,6 +357,7 @@ const menu: MenuCategory[] = [
       },
       {
         name: "Dinamit Kanat 🌶️🌶️",
+        image: "/items/dinamit-wings.jpg",
         description: "Dinamit soslu tavuk kanadı, patates kızartması, sos",
         variants: [
           {
