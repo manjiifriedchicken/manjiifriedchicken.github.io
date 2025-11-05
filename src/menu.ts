@@ -49,13 +49,13 @@ const menu: MenuCategory[] = [
         variants: [
           {
             name: "Tokio X",
-            description: "Sandwich + İçecek + 2 Soğan Halkası + 2 Tenders",
+            description: "Sandwich + İçecek + 2 Soğan Halkası + 1 Tenders (60gr)",
             price: "320₺",
           },
           {
             name: "Tokio XL",
-            description: "Sandwich + İçecek + 1 Kanat + 1 Tenders",
-            price: "320₺",
+            description: "Sandwich + İçecek + 1 Kanat + 1 Tenders (60gr)",
+            price: "330₺",
           },
           {
             name: "Sandwich",
@@ -71,13 +71,13 @@ const menu: MenuCategory[] = [
         variants: [
           {
             name: "London X",
-            description: "Sandwich + İçecek + 2 Soğan Halkası + 2 Tenders",
+            description: "Sandwich + İçecek + 2 Soğan Halkası + 1 Tenders (60gr)",
             price: "330₺",
           },
           {
             name: "London XL",
-            description: "Sandwich + İçecek + 1 Kanat + 1 Tenders",
-            price: "330₺",
+            description: "Sandwich + İçecek + 1 Kanat + 1 Tenders (60gr)",
+            price: "340₺",
           },
           {
             name: "Sandwich",
@@ -93,13 +93,13 @@ const menu: MenuCategory[] = [
         variants: [
           {
             name: "Atina X",
-            description: "Sandwich + İçecek + 2 Soğan Halkası + 2 Tenders",
+            description: "Sandwich + İçecek + 2 Soğan Halkası + 1 Tenders (60gr)",
             price: "340₺",
           },
           {
             name: "Atina XL",
-            description: "Sandwich + İçecek + 1 Kanat + 1 Tenders",
-            price: "340₺",
+            description: "Sandwich + İçecek + 1 Kanat + 1 Tenders (60gr)",
+            price: "350₺",
           },
           {
             name: "Sandwich",
@@ -312,15 +312,15 @@ const menu: MenuCategory[] = [
         description: "Klasik chicken tenders, patates kızartması, sos",
         variants: [
           {
-            name: "5'li Tenders",
+            name: "3'li Tenders",
             price: "260₺",
           },
           {
-            name: "7'li Tenders",
+            name: "5'li Tenders",
             price: "280₺",
           },
           {
-            name: "9'lu Tenders",
+            name: "7'lu Tenders",
             price: "310₺",
           },
         ],
