@@ -49,12 +49,12 @@ const menu: MenuCategory[] = [
         variants: [
           {
             name: "Tokio X",
-            description: "Sandwich + İçecek + 2 Soğan Halkası + 1 Tenders (60gr)",
+            description: "Sandwich + İçecek + 2 Soğan Halkası + 2 Tenders",
             price: "320₺",
           },
           {
             name: "Tokio XL",
-            description: "Sandwich + İçecek + 1 Kanat + 1 Tenders (60gr)",
+            description: "Sandwich + İçecek + 1 Kanat + 1 Tenders",
             price: "330₺",
           },
           {
@@ -71,12 +71,12 @@ const menu: MenuCategory[] = [
         variants: [
           {
             name: "London X",
-            description: "Sandwich + İçecek + 2 Soğan Halkası + 1 Tenders (60gr)",
+            description: "Sandwich + İçecek + 2 Soğan Halkası + 2 Tenders",
             price: "330₺",
           },
           {
             name: "London XL",
-            description: "Sandwich + İçecek + 1 Kanat + 1 Tenders (60gr)",
+            description: "Sandwich + İçecek + 1 Kanat + 1 Tenders",
             price: "340₺",
           },
           {
@@ -93,12 +93,12 @@ const menu: MenuCategory[] = [
         variants: [
           {
             name: "Atina X",
-            description: "Sandwich + İçecek + 2 Soğan Halkası + 1 Tenders (60gr)",
+            description: "Sandwich + İçecek + 2 Soğan Halkası + 2 Tenders",
             price: "340₺",
           },
           {
             name: "Atina XL",
-            description: "Sandwich + İçecek + 1 Kanat + 1 Tenders (60gr)",
+            description: "Sandwich + İçecek + 1 Kanat + 1 Tenders",
             price: "350₺",
           },
           {
@@ -312,15 +312,15 @@ const menu: MenuCategory[] = [
         description: "Klasik chicken tenders, patates kızartması, sos",
         variants: [
           {
-            name: "3'li Tenders",
+            name: "5'li Tenders",
             price: "260₺",
           },
           {
-            name: "5'li Tenders",
+            name: "7'li Tenders",
             price: "280₺",
           },
           {
-            name: "7'lu Tenders",
+            name: "9'lu Tenders",
             price: "310₺",
           },
         ],
@@ -610,8 +610,8 @@ const menu: MenuCategory[] = [
         price: "10₺",
       },
       {
-        name: "Adet Tenders",
-        price: "60₺",
+        name: "Adet Tenders (90-110gr)",
+        price: "90₺",
       },
       {
         name: "Adet Kanat",
