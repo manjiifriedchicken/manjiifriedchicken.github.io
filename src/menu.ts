@@ -50,16 +50,16 @@ const menu: MenuCategory[] = [
           {
             name: "Tokio X",
             description: "Sandwich + İçecek + 2 Soğan Halkası + 2 Tenders",
-            price: "320₺",
+            price: "350₺",
           },
           {
             name: "Tokio XL",
             description: "Sandwich + İçecek + 1 Kanat + 1 Tenders",
-            price: "330₺",
+            price: "360₺",
           },
           {
             name: "Sandwich",
-            price: "290₺",
+            price: "320₺",
           },
         ],
       },
@@ -72,16 +72,16 @@ const menu: MenuCategory[] = [
           {
             name: "London X",
             description: "Sandwich + İçecek + 2 Soğan Halkası + 2 Tenders",
-            price: "330₺",
+            price: "360₺",
           },
           {
             name: "London XL",
             description: "Sandwich + İçecek + 1 Kanat + 1 Tenders",
-            price: "340₺",
+            price: "370₺",
           },
           {
             name: "Sandwich",
-            price: "300₺",
+            price: "330₺",
           },
         ],
       },
@@ -94,16 +94,16 @@ const menu: MenuCategory[] = [
           {
             name: "Atina X",
             description: "Sandwich + İçecek + 2 Soğan Halkası + 2 Tenders",
-            price: "340₺",
+            price: "370₺",
           },
           {
             name: "Atina XL",
             description: "Sandwich + İçecek + 1 Kanat + 1 Tenders",
-            price: "350₺",
+            price: "380₺",
           },
           {
             name: "Sandwich",
-            price: "310₺",
+            price: "340₺",
           },
         ],
       },
@@ -126,11 +126,11 @@ const menu: MenuCategory[] = [
           {
             name: "Sandwich + İçecek",
             description: "Sandwich + İçecek",
-            price: "330₺",
+            price: "360₺",
           },
           {
             name: "Sandwich",
-            price: "310₺",
+            price: "340₺",
           },
         ],
       },
@@ -144,11 +144,11 @@ const menu: MenuCategory[] = [
           {
             name: "Sandwich + İçecek",
             description: "Sandwich + İçecek",
-            price: "350₺",
+            price: "380₺",
           },
           {
             name: "Sandwich",
-            price: "330₺",
+            price: "360₺",
           },
         ],
       },
@@ -162,11 +162,11 @@ const menu: MenuCategory[] = [
           {
             name: "Sandwich + İçecek",
             description: "Sandwich + İçecek",
-            price: "350₺",
+            price: "380₺",
           },
           {
             name: "Sandwich",
-            price: "330₺",
+            price: "360₺",
           },
         ],
       },
@@ -174,7 +174,24 @@ const menu: MenuCategory[] = [
         name: "Smoky Burger",
         image: "/items/smoke.jpg",
         description:
-          "Artisan burger ekmeği, 130gr dana kaburga köftesi, karabiberli rosebeef, çift cheddar peyniri, tütsülenmiş mayonez, biber ezmesi, soğan, ankara çubuk.",
+          "Artisan burger ekmeği, 130gr dana kaburga köftesi, füme kaburga, çift cheddar peyniri, tütsülenmiş mayonez, biber ezmesi, soğan, ankara çubuk.",
+        variants: [
+          {
+            name: "Sandwich + İçecek",
+            description: "Sandwich + İçecek",
+            price: "410₺",
+          },
+          {
+            name: "Sandwich",
+            price: "390₺",
+          },
+        ],
+      },
+      {
+        name: "Relish Burger",
+        image: "/items/relish.png",
+        description:
+          "Artisan burger ekmeği, 130gr dana kaburga köftesi, cheddar peyniri, homemade relish sos, marul, soğan, domates, ankara çubuk.",
         variants: [
           {
             name: "Sandwich + İçecek",
@@ -188,23 +205,6 @@ const menu: MenuCategory[] = [
         ],
       },
       {
-        name: "Relish Burger",
-        image: "/items/relish.png",
-        description:
-          "Artisan burger ekmeği, 130gr dana kaburga köftesi, cheddar peyniri, homemade relish sos, marul, soğan, domates, ankara çubuk.",
-        variants: [
-          {
-            name: "Sandwich + İçecek",
-            description: "Sandwich + İçecek",
-            price: "350₺",
-          },
-          {
-            name: "Sandwich",
-            price: "330₺",
-          },
-        ],
-      },
-      {
         name: "Tiftik Burger",
         image: "/items/tiftik.jpg",
         description:
@@ -213,11 +213,11 @@ const menu: MenuCategory[] = [
           {
             name: "Sandwich + İçecek",
             description: "Sandwich + İçecek",
-            price: "450₺",
+            price: "480₺",
           },
           {
             name: "Sandwich",
-            price: "420₺",
+            price: "450₺",
           },
         ],
       },
@@ -230,11 +230,11 @@ const menu: MenuCategory[] = [
           {
             name: "Sandwich + İçecek",
             description: "Sandwich + İçecek",
-            price: "400₺",
+            price: "430₺",
           },
           {
             name: "Sandwich",
-            price: "370₺",
+            price: "400₺",
           },
         ],
       },
@@ -503,19 +503,19 @@ const menu: MenuCategory[] = [
     items: [
       {
         name: "Şişe/Kutu İçecekler",
-        price: "70₺",
+        price: "90₺",
       },
       {
         name: "Sade Soda",
-        price: "40₺",
+        price: "60₺",
       },
       {
         name: "Meyveli Soda",
-        price: "45₺",
+        price: "65₺",
       },
       {
         name: "Ayran",
-        price: "45₺",
+        price: "50₺",
       },
       {
         name: "Su",
