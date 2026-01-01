@@ -44,7 +44,7 @@ const menu: MenuCategory[] = [
       {
         name: "Tokio Burger",
         description:
-          "Artisan burger ekmeği, kızarmış M.F.C tavuk, Tokyo sos, cheddar peyniri, alman turşu, coleslaw salata (Yeşil elmalı), patates kızartması.",
+          "Artisan burger ekmeği, kızarmış M.F.C tavuk, Tokyo sos, cheddar peyniri, coleslaw salata (Yeşil elmalı), patates kızartması.",
         image: "/items/tokio.png",
         variants: [
           {
@@ -120,7 +120,7 @@ const menu: MenuCategory[] = [
       {
         name: "Manjinal Burger",
         description:
-          "Artisan burger ekmeği, 130gr dana kaburga köftesi, cheddar peyniri, aioli sos, soğan, domates, iceberg, ankara çubuk.",
+          "Artisan burger ekmeği, 130gr dana kaburga köftesi, cheddar peyniri, aioli sos, soğan, domates, iceberg.",
         image: "/items/manjinal.png",
         variants: [
           {
@@ -138,7 +138,7 @@ const menu: MenuCategory[] = [
         name: "Algerienne Burger 🌶️",
         image: "/items/algerienne.png",
         description:
-          "Artisan burger ekmeği, 130gr dana kaburga köftesi, cheddar peyniri, algerienne sos, fıstıklı macar salam, ankara çubuk.",
+          "Artisan burger ekmeği, 130gr dana kaburga köftesi, cheddar peyniri, algerienne sos, fıstıklı macar salam.",
 
         variants: [
           {
@@ -156,7 +156,7 @@ const menu: MenuCategory[] = [
         name: "Eggyshaggy Burger",
         image: "/items/eggyshaggy.png",
         description:
-          "Artisan burger ekmeği, 130gr dana kaburga köftesi, sunny side up yumurta, cheddar peyniri, chips master, white sos, ankara çubuk.",
+          "Artisan burger ekmeği, 130gr dana kaburga köftesi, sunny side up yumurta, cheddar peyniri, chips master, white sos.",
 
         variants: [
           {
@@ -174,7 +174,7 @@ const menu: MenuCategory[] = [
         name: "Smoky Burger",
         image: "/items/smoke.jpg",
         description:
-          "Artisan burger ekmeği, 130gr dana kaburga köftesi, füme kaburga, çift cheddar peyniri, tütsülenmiş mayonez, biber ezmesi, soğan, ankara çubuk.",
+          "Artisan burger ekmeği, 130gr dana kaburga köftesi, füme kaburga, çift cheddar peyniri, tütsülenmiş mayonez, biber ezmesi, soğan.",
         variants: [
           {
             name: "Sandwich + İçecek",
@@ -191,7 +191,7 @@ const menu: MenuCategory[] = [
         name: "Relish Burger",
         image: "/items/relish.png",
         description:
-          "Artisan burger ekmeği, 130gr dana kaburga köftesi, cheddar peyniri, homemade relish sos, marul, soğan, domates, ankara çubuk.",
+          "Artisan burger ekmeği, 130gr dana kaburga köftesi, cheddar peyniri, homemade relish sos, marul, soğan, domates.",
         variants: [
           {
             name: "Sandwich + İçecek",
@@ -208,7 +208,7 @@ const menu: MenuCategory[] = [
         name: "Tiftik Burger",
         image: "/items/tiftik.jpg",
         description:
-          "Artisan burger ekmeği, 130gr dana kaburga köftesi, taze baharatlarla pişirilmiş tiftik kaburga, cheddar peyniri, trüf mantarlı mayonez, tütsülü BBQ sos, ankara çubuk.",
+          "Artisan burger ekmeği, 130gr dana kaburga köftesi, taze baharatlarla pişirilmiş tiftik kaburga, cheddar peyniri, trüf mantarlı mayonez, tütsülü BBQ sos.",
         variants: [
           {
             name: "Sandwich + İçecek",
@@ -252,7 +252,7 @@ const menu: MenuCategory[] = [
         name: "Izgara Tavuk Burrito",
         image: "/items/buritto.jpg",
         description:
-          "Izgara tavuk, çift lavaş, algerienne sos, ranch sos, patates, domates, marul, soğan.",
+          "Izgara tavuk, çift lavaş, algerienne sos, ranch sos, patates, domates, marul, soğan. (Hazırlanma süresi 20-25 dakikadır)",
         variants: [
           {
             name: "Burrito",
@@ -268,7 +268,7 @@ const menu: MenuCategory[] = [
         name: "M.F.C. Burrito",
         image: "/items/buritto.jpg",
         description:
-          "Kızarmış M.F.C tavuk, çift lavaş, algerienne sos, ranch sos, ranch sos, patates, domates, marul, soğan.",
+          "Kızarmış M.F.C tavuk, çift lavaş, algerienne sos, ranch sos, ranch sos, patates, domates, marul, soğan. (Hazırlanma süresi 20-25 dakikadır)",
         variants: [
           {
             name: "Burrito",
@@ -284,7 +284,7 @@ const menu: MenuCategory[] = [
         name: "Dinamit M.F.C. Burrito 🌶️🌶️",
         image: "/items/dinamit-buritto.jpg",
         description:
-          "Kızarmış M.F.C tavuk, çift lavaş, dinamit sos, ranch sos, patates, domates, marul.",
+          "Kızarmış M.F.C tavuk, çift lavaş, dinamit sos, ranch sos, patates, domates, marul. (Hazırlanma süresi 20-25 dakikadır)",
         variants: [
           {
             name: "Burrito",
@@ -612,6 +612,10 @@ const menu: MenuCategory[] = [
       {
         name: "Adet Tenders (90-110gr)",
         price: "90₺",
+      },
+      {
+        name: "6'lı Soğan Halkası",
+        price: "100₺",
       },
       {
         name: "Adet Kanat",
