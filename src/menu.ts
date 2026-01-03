@@ -256,11 +256,11 @@ const menu: MenuCategory[] = [
         variants: [
           {
             name: "Burrito",
-            price: "250₺",
+            price: "275₺",
           },
           {
             name: "Burrito + İçecek",
-            price: "270₺",
+            price: "300₺",
           },
         ],
       },
@@ -272,11 +272,11 @@ const menu: MenuCategory[] = [
         variants: [
           {
             name: "Burrito",
-            price: "300₺",
+            price: "275₺",
           },
           {
             name: "Burrito + İçecek",
-            price: "320₺",
+            price: "300₺",
           },
         ],
       },
@@ -292,7 +292,7 @@ const menu: MenuCategory[] = [
           },
           {
             name: "Burrito + İçecek",
-            price: "320₺",
+            price: "325₺",
           },
         ],
       },
@@ -313,15 +313,15 @@ const menu: MenuCategory[] = [
         variants: [
           {
             name: "5'li Tenders",
-            price: "260₺",
+            price: "290₺",
           },
           {
             name: "7'li Tenders",
-            price: "280₺",
+            price: "310₺",
           },
           {
             name: "9'lu Tenders",
-            price: "310₺",
+            price: "340₺",
           },
         ],
       },
