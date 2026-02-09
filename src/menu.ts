@@ -50,16 +50,16 @@ const menu: MenuCategory[] = [
           {
             name: "Tokio X",
             description: "Sandwich + İçecek + 2 Soğan Halkası + 2 Tenders",
-            price: "350₺",
+            price: "380₺",
           },
           {
             name: "Tokio XL",
             description: "Sandwich + İçecek + 1 Kanat + 1 Tenders",
-            price: "360₺",
+            price: "390₺",
           },
           {
             name: "Sandwich",
-            price: "320₺",
+            price: "350₺",
           },
         ],
       },
@@ -72,16 +72,16 @@ const menu: MenuCategory[] = [
           {
             name: "London X",
             description: "Sandwich + İçecek + 2 Soğan Halkası + 2 Tenders",
-            price: "360₺",
+            price: "390₺",
           },
           {
             name: "London XL",
             description: "Sandwich + İçecek + 1 Kanat + 1 Tenders",
-            price: "370₺",
+            price: "400₺",
           },
           {
             name: "Sandwich",
-            price: "330₺",
+            price: "360₺",
           },
         ],
       },
@@ -94,16 +94,16 @@ const menu: MenuCategory[] = [
           {
             name: "Atina X",
             description: "Sandwich + İçecek + 2 Soğan Halkası + 2 Tenders",
-            price: "370₺",
+            price: "400₺",
           },
           {
             name: "Atina XL",
             description: "Sandwich + İçecek + 1 Kanat + 1 Tenders",
-            price: "380₺",
+            price: "410₺",
           },
           {
             name: "Sandwich",
-            price: "340₺",
+            price: "370₺",
           },
         ],
       },
@@ -126,11 +126,11 @@ const menu: MenuCategory[] = [
           {
             name: "Sandwich + İçecek",
             description: "Sandwich + İçecek",
-            price: "360₺",
+            price: "400₺",
           },
           {
             name: "Sandwich",
-            price: "340₺",
+            price: "380₺",
           },
         ],
       },
@@ -144,11 +144,11 @@ const menu: MenuCategory[] = [
           {
             name: "Sandwich + İçecek",
             description: "Sandwich + İçecek",
-            price: "380₺",
+            price: "420₺",
           },
           {
             name: "Sandwich",
-            price: "360₺",
+            price: "400₺",
           },
         ],
       },
@@ -162,11 +162,11 @@ const menu: MenuCategory[] = [
           {
             name: "Sandwich + İçecek",
             description: "Sandwich + İçecek",
-            price: "380₺",
+            price: "420₺",
           },
           {
             name: "Sandwich",
-            price: "360₺",
+            price: "400₺",
           },
         ],
       },
@@ -179,11 +179,11 @@ const menu: MenuCategory[] = [
           {
             name: "Sandwich + İçecek",
             description: "Sandwich + İçecek",
-            price: "410₺",
+            price: "450₺",
           },
           {
             name: "Sandwich",
-            price: "390₺",
+            price: "430₺",
           },
         ],
       },
@@ -196,11 +196,11 @@ const menu: MenuCategory[] = [
           {
             name: "Sandwich + İçecek",
             description: "Sandwich + İçecek",
-            price: "380₺",
+            price: "420₺",
           },
           {
             name: "Sandwich",
-            price: "360₺",
+            price: "400₺",
           },
         ],
       },
@@ -213,11 +213,11 @@ const menu: MenuCategory[] = [
           {
             name: "Sandwich + İçecek",
             description: "Sandwich + İçecek",
-            price: "480₺",
+            price: "520₺",
           },
           {
             name: "Sandwich",
-            price: "450₺",
+            price: "490₺",
           },
         ],
       },
@@ -230,11 +230,11 @@ const menu: MenuCategory[] = [
           {
             name: "Sandwich + İçecek",
             description: "Sandwich + İçecek",
-            price: "430₺",
+            price: "470₺",
           },
           {
             name: "Sandwich",
-            price: "400₺",
+            price: "440₺",
           },
         ],
       },
@@ -256,11 +256,11 @@ const menu: MenuCategory[] = [
         variants: [
           {
             name: "Burrito",
-            price: "275₺",
+            price: "300₺",
           },
           {
             name: "Burrito + İçecek",
-            price: "300₺",
+            price: "320₺",
           },
         ],
       },
@@ -272,11 +272,11 @@ const menu: MenuCategory[] = [
         variants: [
           {
             name: "Burrito",
-            price: "275₺",
+            price: "310₺",
           },
           {
             name: "Burrito + İçecek",
-            price: "300₺",
+            price: "330₺",
           },
         ],
       },
@@ -288,11 +288,11 @@ const menu: MenuCategory[] = [
         variants: [
           {
             name: "Burrito",
-            price: "300₺",
+            price: "315₺",
           },
           {
             name: "Burrito + İçecek",
-            price: "325₺",
+            price: "335₺",
           },
         ],
       },
@@ -313,15 +313,15 @@ const menu: MenuCategory[] = [
         variants: [
           {
             name: "5'li Tenders",
-            price: "290₺",
+            price: "320₺",
           },
           {
             name: "7'li Tenders",
-            price: "310₺",
+            price: "340₺",
           },
           {
             name: "9'lu Tenders",
-            price: "340₺",
+            price: "370₺",
           },
         ],
       },
@@ -332,11 +332,11 @@ const menu: MenuCategory[] = [
         variants: [
           {
             name: "6'lı Kanat",
-            price: "260₺",
+            price: "340₺",
           },
           {
             name: "10'lu Kanat",
-            price: "340₺",
+            price: "390₺",
           },
         ],
       },
@@ -347,11 +347,11 @@ const menu: MenuCategory[] = [
         variants: [
           {
             name: "6'lı BBQ Kanat",
-            price: "260₺",
+            price: "360₺",
           },
           {
             name: "10'lu BBQ Kanat",
-            price: "340₺",
+            price: "410₺",
           },
         ],
       },
@@ -362,11 +362,11 @@ const menu: MenuCategory[] = [
         variants: [
           {
             name: "6'lı Dinamit Kanat",
-            price: "260₺",
+            price: "360₺",
           },
           {
             name: "10'lu Dinamit Kanat",
-            price: "340₺",
+            price: "410₺",
           },
         ],
       },
@@ -382,19 +382,19 @@ const menu: MenuCategory[] = [
     items: [
       {
         name: "Basic Fries",
-        price: "130₺",
+        price: "150₺",
       },
       {
         name: "Cheddar Bomb Fries",
         description:
           "Patates Kızartması, M.F.C. tavuk parçaları, bol cheddar sos, taze soğan, salatalık turşusu.",
-        price: "270₺",
+        price: "300₺",
       },
       {
         name: "Hot Bomb Fries",
         description:
           "Patates Kızartması, M.F.C. tavuk parçaları, jalepeno biber, cheddar peyniri, taze soğan, salatalık turşusu, buffalo, algerienne ve ranch sos.",
-        price: "250₺",
+        price: "300₺",
       },
     ],
   },
@@ -541,51 +541,51 @@ const menu: MenuCategory[] = [
     items: [
       {
         name: "Tokio Sos",
-        price: "18₺",
+        price: "30₺",
       },
       {
         name: "Algerienne Sos 🌶️",
-        price: "18₺",
+        price: "30₺",
       },
       {
         name: "Samurai Sos 🌶️",
-        price: "18₺",
+        price: "30₺",
       },
       {
         name: "Richie Sos",
-        price: "18₺",
+        price: "30₺",
       },
       {
         name: "Dynamite Sos 🌶️🌶️",
-        price: "18₺",
+        price: "30₺",
       },
       {
         name: "White Sos",
-        price: "18₺",
+        price: "30₺",
       },
       {
         name: "Aioli Sos",
-        price: "18₺",
+        price: "30₺",
       },
       {
         name: "Sweet Chili Sos 🌶️",
-        price: "12₺",
+        price: "20₺",
       },
       {
         name: "BBQ Sos",
-        price: "12₺",
+        price: "20₺",
       },
       {
         name: "Buffalo Sos 🌶️",
-        price: "12₺",
+        price: "20₺",
       },
       {
         name: "Peri Peri Sos 🌶️",
-        price: "12₺",
+        price: "20₺",
       },
       {
         name: "Relish Sos",
-        price: "12₺",
+        price: "20₺",
       },
     ],
   },
@@ -599,35 +599,35 @@ const menu: MenuCategory[] = [
     items: [
       {
         name: "Adet Salam",
-        price: "12₺",
+        price: "15₺",
       },
       {
         name: "Adet Füme Kaburga",
-        price: "40₺",
+        price: "65₺",
       },
       {
         name: "Adet Yumurta ",
-        price: "10₺",
+        price: "15₺",
       },
       {
         name: "Adet Tenders (90-110gr)",
-        price: "90₺",
-      },
-      {
-        name: "6'lı Soğan Halkası",
         price: "100₺",
       },
       {
+        name: "6'lı Soğan Halkası",
+        price: "120₺",
+      },
+      {
         name: "Adet Kanat",
-        price: "60₺",
+        price: "80₺",
       },
       {
         name: "Ekstra Cheddar",
-        price: "25₺",
+        price: "40₺",
       },
       {
         name: "Colelaw Salata (Yeşil Elmalı)",
-        price: "45₺",
+        price: "70₺",
       },
     ],
   },
@@ -635,51 +635,51 @@ const menu: MenuCategory[] = [
 const sauces: Sauce[] = [
   {
     name: "Tokio Sos",
-    price: "18₺",
+    price: "30₺",
   },
   {
     name: "Algerienne Sos 🌶️",
-    price: "18₺",
+    price: "30₺",
   },
   {
     name: "Samurai Sos 🌶️",
-    price: "18₺",
+    price: "30₺",
   },
   {
     name: "Richie Sos",
-    price: "18₺",
+    price: "30₺",
   },
   {
     name: "Dynamite Sos 🌶️🌶️",
-    price: "18₺",
+    price: "30₺",
   },
   {
     name: "White Sos",
-    price: "18₺",
+    price: "30₺",
   },
   {
     name: "Aioli Sos",
-    price: "18₺",
+    price: "30₺",
   },
   {
     name: "Sweet Chili Sos 🌶️",
-    price: "12₺",
+    price: "20₺",
   },
   {
     name: "BBQ Sos",
-    price: "12₺",
+    price: "20₺",
   },
   {
     name: "Buffalo Sos 🌶️",
-    price: "12₺",
+    price: "20₺",
   },
   {
     name: "Peri Peri Sos 🌶️",
-    price: "12₺",
+    price: "20₺",
   },
   {
     name: "Relish Sos",
-    price: "12₺",
+    price: "20₺",
   },
 ];
 
