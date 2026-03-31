@@ -50,16 +50,16 @@ const menu: MenuCategory[] = [
           {
             name: "Tokio X",
             description: "Sandwich + İçecek + 2 Soğan Halkası + 2 Tenders",
-            price: "380₺",
+            price: "400₺",
           },
           {
             name: "Tokio XL",
             description: "Sandwich + İçecek + 1 Kanat + 1 Tenders",
-            price: "390₺",
+            price: "410₺",
           },
           {
             name: "Sandwich",
-            price: "350₺",
+            price: "370₺",
           },
         ],
       },
@@ -72,16 +72,16 @@ const menu: MenuCategory[] = [
           {
             name: "London X",
             description: "Sandwich + İçecek + 2 Soğan Halkası + 2 Tenders",
-            price: "390₺",
+            price: "410₺",
           },
           {
             name: "London XL",
             description: "Sandwich + İçecek + 1 Kanat + 1 Tenders",
-            price: "400₺",
+            price: "420₺",
           },
           {
             name: "Sandwich",
-            price: "360₺",
+            price: "380₺",
           },
         ],
       },
@@ -94,16 +94,16 @@ const menu: MenuCategory[] = [
           {
             name: "Atina X",
             description: "Sandwich + İçecek + 2 Soğan Halkası + 2 Tenders",
-            price: "400₺",
+            price: "420₺",
           },
           {
             name: "Atina XL",
             description: "Sandwich + İçecek + 1 Kanat + 1 Tenders",
-            price: "410₺",
+            price: "430₺",
           },
           {
             name: "Sandwich",
-            price: "370₺",
+            price: "390₺",
           },
         ],
       },
@@ -126,11 +126,11 @@ const menu: MenuCategory[] = [
           {
             name: "Sandwich + İçecek",
             description: "Sandwich + İçecek",
-            price: "400₺",
+            price: "420₺",
           },
           {
             name: "Sandwich",
-            price: "380₺",
+            price: "400₺",
           },
         ],
       },
@@ -144,11 +144,11 @@ const menu: MenuCategory[] = [
           {
             name: "Sandwich + İçecek",
             description: "Sandwich + İçecek",
-            price: "420₺",
+            price: "440₺",
           },
           {
             name: "Sandwich",
-            price: "400₺",
+            price: "420₺",
           },
         ],
       },
@@ -162,11 +162,11 @@ const menu: MenuCategory[] = [
           {
             name: "Sandwich + İçecek",
             description: "Sandwich + İçecek",
-            price: "420₺",
+            price: "440₺",
           },
           {
             name: "Sandwich",
-            price: "400₺",
+            price: "420₺",
           },
         ],
       },
@@ -179,11 +179,11 @@ const menu: MenuCategory[] = [
           {
             name: "Sandwich + İçecek",
             description: "Sandwich + İçecek",
-            price: "450₺",
+            price: "470₺",
           },
           {
             name: "Sandwich",
-            price: "430₺",
+            price: "450₺",
           },
         ],
       },
@@ -196,11 +196,11 @@ const menu: MenuCategory[] = [
           {
             name: "Sandwich + İçecek",
             description: "Sandwich + İçecek",
-            price: "420₺",
+            price: "440₺",
           },
           {
             name: "Sandwich",
-            price: "400₺",
+            price: "420₺",
           },
         ],
       },
@@ -213,11 +213,11 @@ const menu: MenuCategory[] = [
           {
             name: "Sandwich + İçecek",
             description: "Sandwich + İçecek",
-            price: "520₺",
+            price: "540₺",
           },
           {
             name: "Sandwich",
-            price: "490₺",
+            price: "510₺",
           },
         ],
       },
@@ -230,11 +230,11 @@ const menu: MenuCategory[] = [
           {
             name: "Sandwich + İçecek",
             description: "Sandwich + İçecek",
-            price: "470₺",
+            price: "490₺",
           },
           {
             name: "Sandwich",
-            price: "440₺",
+            price: "460₺",
           },
         ],
       },
