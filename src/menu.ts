@@ -120,7 +120,7 @@ const menu: MenuCategory[] = [
       {
         name: "Manjinal Burger",
         description:
-          "Artisan burger ekmeği, 130gr dana kaburga köftesi, cheddar peyniri, aioli sos, soğan, domates, iceberg.",
+          "Artisan burger ekmeği, 120gr dana kaburga köftesi, cheddar peyniri, aioli sos, soğan, domates, iceberg.",
         image: "/items/manjinal.png",
         variants: [
           {
@@ -138,7 +138,7 @@ const menu: MenuCategory[] = [
         name: "Algerienne Burger 🌶️",
         image: "/items/algerienne.png",
         description:
-          "Artisan burger ekmeği, 130gr dana kaburga köftesi, cheddar peyniri, algerienne sos, fıstıklı macar salam.",
+          "Artisan burger ekmeği, 120gr dana kaburga köftesi, cheddar peyniri, algerienne sos, fıstıklı macar salam.",
 
         variants: [
           {
@@ -156,7 +156,7 @@ const menu: MenuCategory[] = [
         name: "Eggyshaggy Burger",
         image: "/items/eggyshaggy.png",
         description:
-          "Artisan burger ekmeği, 130gr dana kaburga köftesi, sunny side up yumurta, cheddar peyniri, chips master, white sos.",
+          "Artisan burger ekmeği, 120gr dana kaburga köftesi, sunny side up yumurta, cheddar peyniri, chips master, white sos.",
 
         variants: [
           {
@@ -174,7 +174,7 @@ const menu: MenuCategory[] = [
         name: "Smoky Burger",
         image: "/items/smoke.jpg",
         description:
-          "Artisan burger ekmeği, 130gr dana kaburga köftesi, füme kaburga, çift cheddar peyniri, tütsülenmiş mayonez, biber ezmesi, soğan.",
+          "Artisan burger ekmeği, 120gr dana kaburga köftesi, füme kaburga, çift cheddar peyniri, tütsülenmiş mayonez, biber ezmesi, soğan.",
         variants: [
           {
             name: "Sandwich + İçecek",
@@ -191,7 +191,7 @@ const menu: MenuCategory[] = [
         name: "Relish Burger",
         image: "/items/relish.png",
         description:
-          "Artisan burger ekmeği, 130gr dana kaburga köftesi, cheddar peyniri, homemade relish sos, marul, soğan, domates.",
+          "Artisan burger ekmeği, 120gr dana kaburga köftesi, cheddar peyniri, homemade relish sos, marul, soğan, domates.",
         variants: [
           {
             name: "Sandwich + İçecek",
@@ -208,7 +208,7 @@ const menu: MenuCategory[] = [
         name: "Tiftik Burger",
         image: "/items/tiftik.jpg",
         description:
-          "Artisan burger ekmeği, 130gr dana kaburga köftesi, taze baharatlarla pişirilmiş tiftik kaburga, cheddar peyniri, trüf mantarlı mayonez, tütsülü BBQ sos.",
+          "Artisan burger ekmeği, 120gr dana kaburga köftesi, taze baharatlarla pişirilmiş tiftik kaburga, cheddar peyniri, trüf mantarlı mayonez, tütsülü BBQ sos.",
         variants: [
           {
             name: "Sandwich + İçecek",
@@ -225,7 +225,7 @@ const menu: MenuCategory[] = [
         name: "RedSin Burger",
         image: "/items/redsin.jpg",
         description:
-          "Artisan burger ekmeği, 130gr dana kaburga köftesi, Manjii Cream Sos(çörek otlu peynir kreması), vişne marmelatı, roka.",
+          "Artisan burger ekmeği, 120gr dana kaburga köftesi, Manjii Cream Sos(çörek otlu peynir kreması), vişne marmelatı, roka.",
         variants: [
           {
             name: "Sandwich + İçecek",
@@ -256,11 +256,11 @@ const menu: MenuCategory[] = [
         variants: [
           {
             name: "Burrito",
-            price: "300₺",
+            price: "320₺",
           },
           {
             name: "Burrito + İçecek",
-            price: "320₺",
+            price: "340₺",
           },
         ],
       },
@@ -272,11 +272,11 @@ const menu: MenuCategory[] = [
         variants: [
           {
             name: "Burrito",
-            price: "310₺",
+            price: "330₺",
           },
           {
             name: "Burrito + İçecek",
-            price: "330₺",
+            price: "350₺",
           },
         ],
       },
@@ -288,11 +288,11 @@ const menu: MenuCategory[] = [
         variants: [
           {
             name: "Burrito",
-            price: "315₺",
+            price: "335₺",
           },
           {
             name: "Burrito + İçecek",
-            price: "335₺",
+            price: "355₺",
           },
         ],
       },
@@ -313,15 +313,15 @@ const menu: MenuCategory[] = [
         variants: [
           {
             name: "5'li Tenders",
-            price: "320₺",
-          },
-          {
-            name: "7'li Tenders",
             price: "340₺",
           },
           {
+            name: "7'li Tenders",
+            price: "360₺",
+          },
+          {
             name: "9'lu Tenders",
-            price: "370₺",
+            price: "390₺",
           },
         ],
       },
@@ -332,11 +332,11 @@ const menu: MenuCategory[] = [
         variants: [
           {
             name: "6'lı Kanat",
-            price: "340₺",
+            price: "360₺",
           },
           {
             name: "10'lu Kanat",
-            price: "390₺",
+            price: "410₺",
           },
         ],
       },
@@ -347,11 +347,11 @@ const menu: MenuCategory[] = [
         variants: [
           {
             name: "6'lı BBQ Kanat",
-            price: "360₺",
+            price: "380₺",
           },
           {
             name: "10'lu BBQ Kanat",
-            price: "410₺",
+            price: "430₺",
           },
         ],
       },
@@ -362,11 +362,11 @@ const menu: MenuCategory[] = [
         variants: [
           {
             name: "6'lı Dinamit Kanat",
-            price: "360₺",
+            price: "380₺",
           },
           {
             name: "10'lu Dinamit Kanat",
-            price: "410₺",
+            price: "430₺",
           },
         ],
       },
@@ -382,19 +382,19 @@ const menu: MenuCategory[] = [
     items: [
       {
         name: "Basic Fries",
-        price: "150₺",
+        price: "170₺",
       },
       {
         name: "Cheddar Bomb Fries",
         description:
           "Patates Kızartması, M.F.C. tavuk parçaları, bol cheddar sos, taze soğan, salatalık turşusu.",
-        price: "300₺",
+        price: "320₺",
       },
       {
         name: "Hot Bomb Fries",
         description:
           "Patates Kızartması, M.F.C. tavuk parçaları, jalepeno biber, cheddar peyniri, taze soğan, salatalık turşusu, buffalo, algerienne ve ranch sos.",
-        price: "300₺",
+        price: "320₺",
       },
     ],
   },
@@ -409,14 +409,14 @@ const menu: MenuCategory[] = [
       {
         name: "Big Bowl",
         description:
-          "Patates kızartması, coleslaw salata (Yeşil elmalı), 130gr köfte, 3 adet tenders, 2 adet soğan halkası, füme kaburga dilimleri, iki çeşit sos.",
-        price: "420₺",
+          "Patates kızartması, coleslaw salata (Yeşil elmalı), 120gr köfte, 3 adet tenders, 2 adet soğan halkası, füme kaburga dilimleri, iki çeşit sos.",
+        price: "440₺",
       },
       {
         name: "Chicken Bowl",
         description:
           "Patates kızartması, coleslaw salata (Yeşil elmalı), 2 adet tenders, 2 adet soğan halkası, iki çeşit sos.",
-        price: "420₺",
+        price: "440₺",
       },
     ],
   },
